@@ -1,14 +1,14 @@
 ---
 name: raji
-description: Answers questions about Arizona civil jury instructions (RAJI) from the instruction text, never memory. Use for the elements of a claim, the burden of proof, or what a RAJI says.
+description: Answers Arizona civil jury instruction (RAJI) questions from the bundled instruction text. Use for the elements of a claim, the burden of proof, or what a RAJI says.
 ---
 
 # Arizona civil jury instructions (RAJI)
 
-Models often make up RAJI numbers and paraphrase elements wrong. This skill works only from
-the civil instruction text in `chapters/`. If no chapter covers the question, say so and
-stop; RAJI (Criminal), federal model instructions, and other states' instructions are not
-here.
+Every RAJI label and element in an answer comes from the civil instruction text in
+`chapters/`, because recalled labels and paraphrased elements are often wrong. If no
+chapter covers the question, say so and stop; RAJI (Criminal), federal model instructions,
+and other states' instructions are not here.
 
 ## Get the text first
 
@@ -64,8 +64,8 @@ guardianship) have no numbered labels; search their text.
   negligence, 1A or 1B), give both and say what decides it. Which one to request is the
   lawyer's call; if the user's facts point one way, say so and say it is a read, not a
   finding.
-- Say what the RAJI does not cover: case law after the chapter's edition, a claim with no
-  RAJI. Don't improvise an instruction.
+- Say what the RAJI does not cover: case law after the chapter's edition, and any claim
+  with no RAJI, which gets no pattern language at all.
 - Give the chapter's edition year. A RAJI is a pattern instruction, not a statute, and
   courts can depart from it; check the State Bar's RAJI page for a newer edition.
 
@@ -84,7 +84,7 @@ Add `--user-text <file>` with the user's own documents, extracted with code, whe
 them. Its docstring lists what it checks and what it skips.
 
 - On a quote problem, print the instruction with `--show` and re-read it; fix the words or
-  the cite, never just the quotation marks.
+  the cite until the quote matches the file.
 - On UNKNOWN LABEL, use one of the labels it lists. On BANNED, rewrite the sentence.
 - Rerun until it reports 0 problems. If a problem stays after `--show` confirms your words
   and label, keep them and tell the user which line the check disputes.

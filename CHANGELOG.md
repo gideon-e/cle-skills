@@ -30,6 +30,9 @@ and after against a build checklist and a legal skill design framework.
 - Memo headed "Attorney work product", client letter marked privileged, every letter headed as a draft.
 - Removed the reference to `scripts/rules_toc.py`, which was never shipped; added Rule 34 to the title of `rules.md`; corrected the README's rule and case counts.
 
+### All three skills
+- Rewritten against Matt Pocock's writing-for-agents skill: descriptions name one trigger per case, prohibitions restated as the behavior wanted (the one kept, never invent a case, is paired with marking cites unverified), and az-esi-disclosure points to the checker's docstring instead of restating it.
+
 ### Repository
 - `tests/`: behavior tests for every script, and layout tests for every skill.
 - `tools/build.py` and a release workflow that attaches the three zips to a tagged release.

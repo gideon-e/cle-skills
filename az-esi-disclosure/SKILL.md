@@ -6,8 +6,8 @@ description: Checks an Arizona Rule 26.1 ESI disclosure for gaps, ours or theirs
 # Arizona ESI disclosure check
 
 Arizona requires more ESI disclosure, earlier, than federal practice does, and parties
-routinely under-disclose it. Cite only this skill's references. If they don't answer a
-question, say so, and don't fill the gap from memory.
+routinely under-disclose it. Every rule and case you cite comes from this skill's
+references; where they are silent, say so and leave the gap open.
 
 It covers civil cases in Arizona superior court under the Arizona Rules of Civil
 Procedure. A case in federal court (Fed. R. Civ. P. 26(f)), family court, or justice
@@ -40,7 +40,7 @@ Rate each line **complete**, **thin** (say what's missing), or **absent**, citin
 
 1. **Identified (26.1(a)(8)-(9)).** Each likely source, with its existence, location,
    custodian, and description. Infer the sources from the claims, and write each inferred
-   one as "likely source; confirm". Never assume what a system holds.
+   one as "likely source; confirm". Say what a system holds only from the user's documents.
 2. **Withheld (26.1(h); 26(b)(6)).** Is anything withheld for privilege? If so, is there a log?
 3. **Produced (26.1(c)(2)-(3)).** Due within 40 days of the initial disclosure, in the form
    requested, or native or reasonably usable.
@@ -49,15 +49,14 @@ Rate each line **complete**, **thin** (say what's missing), or **absent**, citin
 5. **Preserved (37(g); 45.2).** Any sign of lost ESI or a late or narrow hold.
 
 **Dates.** Compute every deadline with `python3 scripts/deadlines.py` (run it with no
-arguments for usage) and paste its line into the memo; never count by hand. It knows no
-holidays, so ask the user for the court's and pass them with `--holidays`. If the user
-states a deadline and the script disagrees, show both computations and mark it as their
-call. Extra days for the method of service aren't in `rules.md`; flag them as a question
-rather than adding them.
+arguments for usage) and paste its line into the memo. It knows no holidays, so ask the
+user for the court's and pass them with `--holidays`. If the user states a deadline and
+the script disagrees, show both computations and mark it as their call. Extra days for the
+method of service aren't in `rules.md`; flag them as a question rather than adding them.
 
 ## Output: short and plain
 
-The user wants a memo they can read in one minute. No preamble and no summary of their facts.
+The user wants a memo they can read in one minute, opening on the bottom line.
 
 ```
 Attorney work product.
@@ -88,20 +87,17 @@ review before sending".
 
 ## Check before replying
 
-1. Run `python3 scripts/extract.py docs.md <each document the user gave you>`; don't
-   retype them. Quote nothing from a document it reports FAILED, and say so.
+1. Run `python3 scripts/extract.py docs.md <each document the user gave you>`, and quote
+   the user's documents only from `docs.md`. A document it reports FAILED gets no
+   quotation; tell the user which one.
 2. Save the memo and the letter as files and run, with `scripts/` in this skill's folder
    (Python 3 standard library only; nothing to install):
    `python3 scripts/check_quotes.py memo.md --user-text docs.md --max-words 350`
    `python3 scripts/check_quotes.py letter.md --user-text docs.md --max-words 400`
-   It checks every quotation of 4 or more words, block quotes included, against
-   `rules.md`, the bundled opinions, the quoted words on the **Quote:** lines of
-   `authorities.md` (never its summaries), and `docs.md`; checks that a quote sits in the
-   case whose Ariz. cite follows it; and rejects "Do not quote" passages, "good law", and
-   filler.
+   Its docstring lists what it checks and what it skips.
 3. On a quote problem, go back to the source and fix the words or the cite, or drop the
-   quotation. On BANNED, rewrite the sentence. If a draft is too long, cut it; don't
-   summarize it. Return to step 2 until both report 0 problems, then reply. When a draft
+   quotation. On BANNED, rewrite the sentence. On TOO LONG, cut whole lines until it
+   fits. Return to step 2 until both report 0 problems, then reply. When a draft
    is wrong in a way the check missed, tell the user and suggest reporting it as an issue
    on the gideon-e/cle-skills repository, so the check can be added.
 

@@ -1,13 +1,12 @@
 ---
 name: shred
-description: Attacks a legal draft the way the best opposing counsel would, then grades whether it survives. Use for "shred this", "tear this apart", or "read this like opposing counsel".
+description: Red-teams a legal draft as opposing counsel and grades whether it survives. Use when asked to shred a draft, or to re-grade a revised one.
 ---
 
 # Shred
 
-Default Claude is too polite to be useful on a draft: it praises, hedges, and offers line
-edits. In this skill you are the best lawyer on the other side, reading the draft to find
-what loses. Attack the draft, never the person who wrote it.
+In this skill you are opposing counsel: the best lawyer on the other side, reading the
+draft to find what loses, and reporting each weakness with its fix.
 
 It fits anything an adversary or a decision-maker will read: a brief, motion, pleading,
 demand letter, mediation statement, or discovery response. A contract or a client letter
@@ -76,8 +75,8 @@ gideon-e/cle-skills repository.
 
 ## Rules
 
-- Praise nothing. If a section holds up, skip it.
-- Don't rewrite the draft unless the user asks.
+- Report weaknesses only; a section that holds up gets no mention.
+- Give each fix in one line; rewrite the draft itself only when the user asks.
 - If a finding depends on a document you haven't seen, say which document.
 - On a second pass, grade the new draft on its own merits, not on how much it improved. Say
   which earlier findings were fixed and which still stand.
