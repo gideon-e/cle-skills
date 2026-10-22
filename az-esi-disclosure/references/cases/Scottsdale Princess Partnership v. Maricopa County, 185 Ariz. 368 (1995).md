@@ -1,8 +1,10 @@
 # Scottsdale Princess Partnership v. Maricopa County, 185 Ariz. 368 (1995)
 
+**Contents:** p. 368 · p. 369 · p. 370 · p. 371 · p. 372 · p. 373 · p. 374 · p. 375 · p. 376 · p. 377 · p. 378 · p. 379 · p. 380. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-368
+## p. 368
 916 P.2d 1084
 185 Ariz. 368
 
@@ -20,7 +22,7 @@ Aug. 24, 1995.
 Reconsideration Denied Nov. 9, 1995.
 Review Denied May 21, 1996.
 
-369
+## p. 369
 
 Nearhood & Associates, P.C. by James R.
 Nearhood, Richard D. Nearhood, Scottsdale,
@@ -31,7 +33,7 @@ for defendani>appellee, cross-appellant Maricopa County.
 Grant Woods, Arizona Attorney General
 by Steven R. Partridge, Assistant Attorney
 
-370
+## p. 370
 General, Phoenix, for defendant-appellee,
 cross-appellant Department of Revenue.
 
@@ -120,7 +122,7 @@ Before oral argument, the County notified this
 Court that it was withdrawing the issues it raised
 pertaining to those orders.
 
-371
+## p. 371
 the taxpayer’s tennis casitas are situated was
 taxed on the secured roll. In tax years 1988
 and 1989, the improvement value of the tennis casitas was taxed on the unsecured personal property tax roll with the hotel complex and the tennis center. In tax years
@@ -201,7 +203,7 @@ taxpayer’s taxes increased for any of the tax
 years in question.
 appeal.
 
-372
+## p. 372
 On the taxpayer’s application for attorneys’ fees and costs and the department’s
 opposition, the tax court found that a sanction of $5,000 was appropriate. Although
 each defendant was responsible for payment
@@ -288,7 +290,7 @@ established that they should properly have been
 assessed on the secured roll. We accordingly do
 not explore or decide that issue.
 
-373
+## p. 373
 the wrong roll when the harm can be remedied merely by taxing the property as if it had
 been correctly listed.
 Other statutes suggest that the legislature’s intent is to uphold assessments whenever possible. A.R.S. section 42-205 provides: “No lack of description, misdescription
@@ -372,7 +374,7 @@ Thus, we hold that the tax court did not
 err in declining to refund the 1992 taxes paid
 on the hotel complex and tennis center.
 
-374
+## p. 374
 III.
 Taxpayer also seeks a full refund of all
 taxes paid on the county’s corrected assessment of taxes against the hotel complex and
@@ -458,7 +460,7 @@ nor the Department of Revenue appealed from
 the tax court’s ruling invalidating A.R.S. section
 42-684.
 
-375
+## p. 375
 its claim, taxpayer raises two alternative
 grounds: first that sections 42-684 and 42685 provided unconstitutional tax exemptions
 and second that to require taxpayer to pay
@@ -549,7 +551,7 @@ for agricultural purposes. Cf. A.R.S. § 42-227
 from 1 percent to 30 percent for different classes
 of property).
 
-376
+## p. 376
 263 P.2d 362 (1953).9 The rest of the provisions create the tax, and section 42-684 creates the exemptions. There is no evidence of
 legislative intent that the tax would not have
 been created without these exemptions.
@@ -630,7 +632,7 @@ is perhaps the most common, obvious basis on
 which a statutory provision may be determined
 "invalid.”
 
-377
+## p. 377
 and 1990, a county could recover additional
 taxes under A.R.S. sections 42-177 and 42178 only by bringing a counterclaim, which
 the county had not done.
@@ -715,7 +717,7 @@ A.R.S. § 42-178(H) (1990); A.R.S. § 42178(1) (1991) (emphasis added). In addit
 Section 42-178(D) and (E), provided:
 D. If the court finds that the valuation is:
 
-378
+## p. 378
 3. Deficient, the judgment shall be for
 the state or county, whichever is appropriate, and against taxpayer for the costs of
 the appeal and the taxes due on the property in excess of the amount originally
@@ -799,7 +801,7 @@ based on the tax court’s judgment in this case.
 
 VI.
 
-379
+## p. 379
 disclosure requirements of Rule 26.1, Arizona
 Rules of Civil Procedure.11
 Taxpayer based its claim for sanctions
@@ -880,7 +882,7 @@ for taxpayer’s fees and expenses was improper.
 Taxpayers sought approximately $11,000 in
 fees and expenses against ADOR and roughcourt’s sanctions order.
 
-380
+## p. 380
 ly four times that amount against the county.
 The tax court awarded taxpayer a total of
 $5000, and held both ADOR and the county

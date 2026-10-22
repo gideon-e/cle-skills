@@ -1,54 +1,12 @@
 # Allstate Insurance v. O'Toole, 182 Ariz. 284 (1995)
 
+**Contents:** p. 284 · p. 285 · p. 286 · p. 287 · p. 288 · p. 289. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-284
-CONCLUSION AND DISPOSITION
-We conclude that the will, properly interpreted, gives to Brown the netsukes and the
-home at 1208 East Solano Drive. All other
-property, after expenses of administration,
-passes by intestate succession to decedent’s
-heirs, Feitler and Shlay. See A.R.S. § 142101 (amended 1994). We acknowledge that
-this result may seem contrary to the decedent’s wishes, at least as expressed ten years
-before her death. In the end, however, we
-find that decedent died partially intestate,
-and “[i]t is settled that a disinheritance
-clause, no matter how broadly or strongly
-phrased, operates only to prevent a claimant
-from taking under the will itself.” Barnes,
-407 P.2d at 659. See generally Annotation,
-Effect of Will Provision Cutting Off Heir or
-Next of Kin, or Restricting Him to Provision Made, to Exclude Him from Distribution of Intestate Property, 100 AL.R.2d 322
-(1965). The decedent did not provide in her
-will for the contingency of her sister predeceasing her, an event that had significant
-effect on the decedent’s holdings and on her
-estate. Nor did her will contain a residuary
-clause. We cannot now speculate on what
-the decedent would have done had she anticipated intervening events. In re Estate of
-Harber, 99 Ariz. 323, 326, 409 P.2d 31, 33
-(1965) (“Our courts will effectuate the testator’s general intent, but not to the extent of
-making a will for him.”); see also 100
-AL.R.2d at 328 (courts generally have not
-implied gifts to others mentioned in the will
-to avoid intestacy).
-We believe the court of appeals went too
-far in trying to carry out what it presumed to
-be the decedent’s intent. To construe the
-language in this will as creating a general
-power of appointment may well lead, in a
-future case, to the disinheritance of loved and
-loving heirs in favor of a stranger. This case
-proves the adage that hard cases make bad
-law. We must not make bad law for many
-cases to reach what some may perceive as a
-“good” result in one.
-Accordingly, we vacate the court of appeals
-opinion, reverse the judgment of the trial
+## p. 284
 
-court, and remand to the trial court for entry
-of judgment consistent with this opinion.
-FELDMAN, C.J., and CORCORAN,
-ZLAKET and MARTONE, JJ., concur.
+[Removed: 47 lines of the preceding opinion printed on this page.]
 
 896 P.2d 254
 
@@ -70,7 +28,7 @@ No. CV-94-0178-PR.
 Supreme Court of Arizona.
 June 14, 1995.
 
-285
+## p. 285
 
 Steptoe & Johnson by Floyd P. Bienstock,
 Lisa M. Bickel, and Kevin M. Judiscak,
@@ -96,7 +54,7 @@ Kormans could find new counsel. The stipulation provided that the case was to pr
 whether or not they were represented by
 that date. The Kormans signed this docu-
 
-286
+## p. 286
 ment, which was entered as a court order on
 January 8, 1993.
 According to the stipulation, the parties
@@ -181,7 +139,7 @@ of appeals did not review the trial court’s findings that the Kormans intentio
 timely disclose the evidence and that no good
 cause for that failure existed.
 
-287
+## p. 287
 at trial any evidence offered by a party
 that was not timely disclosed as required
 by this rule, except by leave of court for
@@ -277,7 +235,7 @@ cause” for providing relief gives trial judges
 a modicum of discretion to ensure that cases
 are not ordinarily won or lost on the basis of
 
-288
+## p. 288
 harmless missed deadlines.6 Thus, even if a
 party does not have a valid excuse for failing
 to timely disclose, permission to use the evidence at trial may, under some circumstances, still be appropriate. The reason for
@@ -354,7 +312,7 @@ Finally, it is unclear to us whether the trial
 or inaction in attempting to resolve a discovery dispute short of calling for the exclusion court intended, as the parties assume, to
 of evidence can be an important factor. See prospectively prohibit the Kormans from disHantsbarger v. Coffin, 501 N.W.2d 501, 505- closing and using evidence subsequently dis-
 
-289
+## p. 289
 covered. The rules provide that “new or
 different information” can and should be disclosed, without leave of court, up to sixty
 days before trial so long as the disclosure is

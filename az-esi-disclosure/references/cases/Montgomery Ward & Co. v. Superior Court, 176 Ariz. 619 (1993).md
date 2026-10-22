@@ -1,24 +1,12 @@
 # Montgomery Ward & Co. v. Superior Court, 176 Ariz. 619 (1993)
 
+**Contents:** p. 619 · p. 620 · p. 621 · p. 622 · p. 623. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-619
-We reject the county’s argument that
-“[ejach day a person is involuntarily deprived of freedom should be credited towards the treatment days, just as each day
-a defendant is deprived of his freedom is
-credited toward his final sentence.” The
-difference between persons receiving courtordered treatment and those being imprisoned as punishment for crimes makes the
-comparison untenable. Commitment proceedings in this case began with the filing
-of a petition and ended with execution of
-the order. All of the time limits of §§ 36540(A)(3)and (F) and 36-541(B) begin with
-the execution of the order.
-The order of the trial court waiving the
-mandatory twenty-five day local treatment
-and its post-hearing determination that the
-pre-commitment treatment under a different proceeding satisfied the requirements
-of the statute is reversed.
-LIVERMORE, P.J., and FERNANDEZ,
-J., concur.
+## p. 619
+
+[Removed: 17 lines of the preceding opinion printed on this page.]
 
 863 P.2d 911
 
@@ -41,7 +29,7 @@ Court of Appeals of Arizona,
 Division One, Department C.
 Nov. 23, 1993.
 
-620
+## p. 620
 with directions that the trial court conduct
 an appropriate hearing and issue appropriate orders and sanctions in the exercise of
 its discretion based on the facts of this case
@@ -96,7 +84,7 @@ ings until this opinion issued. Because we
 conclude that the action of the trial court for Clarification that asked the court to
 was an abuse of discretion and was proce- advise “what disclosure is necessary” redurally defective, we reverse and remand garding the July 8 order. The motion was
 
-621
+## p. 621
 accompanied by materials that supported
 Defendants’ argument about the meaning
 of “similar model of tire.” On August 26,
@@ -183,7 +171,7 @@ sanctions should be entered against the
 party, counsel, or both. See Robinson v.
 Higuera, 157 Ariz. 622, 760 P.2d 622 (App.1988).” Ariz.R.Civ.P. 16(f), comm. cmt.
 
-622
+## p. 622
 Under former Rule 26, the trial court
 could not impose “the ultimate sanction” of
 striking a party’s pleading “without expressly finding” that the party had obstructed discovery. Nesmith v. Superior
@@ -269,7 +257,7 @@ on these issues, but there were none.
 The trial court struck Defendants’ Answer because Defendants’ lawyers did not
 “cough it up without being asked for it.”
 
-623
+## p. 623
 On this record, Defendants’ lawyers have a
 colorable and unresolved claim that “it”
 was not relevant and, even if it was relevant, they did not know what “it” was until

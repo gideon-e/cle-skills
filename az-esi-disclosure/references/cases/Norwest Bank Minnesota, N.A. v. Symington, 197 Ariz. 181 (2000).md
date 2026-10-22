@@ -1,17 +1,12 @@
 # Norwest Bank Minnesota, N.A. v. Symington, 197 Ariz. 181 (2000)
 
+**Contents:** p. 181 · p. 183 · p. 184 · p. 185 · p. 186 · p. 187 · p. 188 · p. 189 · p. 190. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-181
-F.2d at 575.10 The assertion that with the
-guards in place the machine would not function as intended is not only entirely unsupported on this record11 (Anderson has not
-even argued it), it is unsupportable. To say
-this machine did not function as intended
-because it had to be stopped to be “dedrooled” makes no more sense than to say
-that a car does not function because operation has to be stopped periodically to give it
-gas, oil, and needed maintenance. The machine made plastic bottles at a certain rate.
-There was no evidence that it was supposed
-to function at a higher rate.
+## p. 181
+
+[Removed: 10 lines of the preceding opinion printed on this page.]
 
 3 P.3d 1101
 
@@ -72,7 +67,7 @@ Mariscal, Weeks, McIntyre & Friedlander,
 P.A. By Robert A. Shull, David Rodgers,
 Phoenix, for Defendant-Appellant.
 
-183
+## p. 183
 Morrison & Hecker L.L.P. By Michael C.
 Manning, Kristin L. Farnen, David E. Koval,
 Phoenix, for Plaintiff-Appellee.
@@ -151,7 +146,7 @@ This Model included a calculation of appellee’s loss on the Mercado loan at ju
 million, approximately $3 million less than
 the principal amount of the deficiency judgment. Despite the settlement being concluded during the pendency of the deficiency
 
-184
+## p. 184
 action, appellee never disclosed the settlement, the amount of the payment, or the
 Damages Model upon which the payment
 was based.
@@ -235,7 +230,7 @@ that appellee’s failure to disclose the Francy
 appraisal and the Miller settlement was a
 violation of Rule 26.1, Arizona Rules of Civil
 
-185
+## p. 185
 Procedure. Appellant then argues that such
 a discovery violation constitutes “misconduct”
 within the meaning of Rule 60(c)(3), and that
@@ -319,7 +314,7 @@ Rule 26.1 ... states that at the outset of a
 case the parties must make a full, mutual
 and simultaneous disclosure of all relevant
 
-186
+## p. 186
 information known by or available to them
 and their lawyers. In other words, no
 more “hide the pea.” No longer will it be
@@ -403,7 +398,7 @@ respond appropriately to an affirmative dis- with the ability to fully prepare f
 covery request, such as an interrogatory or The court in Estate of Page described this
 request to produce. See, e.g., Anderson, 862 requirement:
 
-187
+## p. 187
 the settlement, and which by establishing
 damages for the Mercado loss at some $5
 million, indirectly valued the Mercado significantly higher than the $3 million claimed by
@@ -490,7 +485,7 @@ the nondisclosure substantially interfered
 with his ability to prepare for and try the
 deficiency action.1
 
-188
+## p. 188
 Mercado, an opinion that would be admissible
 in evidence because appellant was the owner.
 ¶28 Addressing these contentions in reverse order, we observe that there is a significant difference in the evidentiary value of a
@@ -573,7 +568,7 @@ overturn the trial court’s discretionary ruling.”)2
 affirm the trial court's finding that the motion
 was timely made.
 
-189
+## p. 189
 II.
 
 Rule 60(c)(2) and (5)
@@ -668,7 +663,7 @@ of the settlement can be explored and a
 determination made whether any part of the
 compensation received in the Miller settle-
 
-190
+## p. 190
 ment represented all or any part of the deficiency created by appellant’s default on his
 guarantee of the original loan. However, we
 do conclude that this deficiency proceeding is

@@ -1,8 +1,10 @@
 # Rivers v. Solley, 217 Ariz. 528 (2008)
 
+**Contents:** p. 528 · p. 529 · p. 530 · p. 531 · p. 532 · p. 533. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-528
+## p. 528
 177 P.3d 270
 
 Silester RIVERS, a single man,
@@ -16,7 +18,7 @@ Court of Appeals of Arizona,
 Division 1, Department B.
 Feb. 5, 2008.
 
-529
+## p. 529
 days. Finding no abuse of discretion, we
 affirm the dismissal.
 FACTS AND PROCEDURAL
@@ -75,7 +77,7 @@ result of this accident.
 ¶ 6 At his deposition on December 9, 2004,
 Rivers testified that he had been in only two
 
-530
+## p. 530
 car accidents previous to March 17, 2002:
 one in February 1996 and one in January
 1999. According to the IME report, Rivers
@@ -161,7 +163,7 @@ The Arizona Supreme Court directs that,
 whenever possible, the disclosure rules
 “should be interpreted to maximize the likelihood of a decision on the merits.” Allstate
 
-531
+## p. 531
 Ins. Co. v. O’Toole, 182 Ariz. 284, 287, 896
 P.2d 254, 257 (1995). Courts should also use
 a common sense approach in applying the
@@ -248,7 +250,7 @@ whether the plaintiff or his attorney was to
 blame for the alleged disclosure violation.
 Id. at 237, ¶ 23, 62 P.3d at 982. Additionally,
 
-532
+## p. 532
 the trial court failed to make specific findings
 as to what evidence had not been disclosed
 and did not consider lesser sanctions. Id.
@@ -338,7 +340,7 @@ trip up Rivers with a technicality or engage in
 other “hardball" litigation tactics. See Allstate,
 182 Ariz. at 287-88, 896 P.2d at 257-58.
 
-533
+## p. 533
 cause the trial court failed to consider lesser
 sanctions.
 ¶25 Contrary to Rivers’ allegations,

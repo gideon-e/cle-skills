@@ -1,80 +1,12 @@
 # Preston v. Amadei, 238 Ariz. 124 (2015)
 
+**Contents:** p. 124 · p. 125 · p. 126 · p. 127 · p. 128 · p. 129 · p. 130 · p. 131 · p. 132 · p. 133 · p. 134 · p. 135. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-124
-and checks to the beneficiaries in forum
-state, together with any occasional telephone
-calls that related thereto, did not constitute
-minimum contacts); In the Matter of the
-Estate ofDucey, 241 Mont. 419, 787 P.2d 749,
-752 (1990) (payment of benefits into forum
-state as well as routine oral and written
-contacts relating to payments and trust account statements were insufficient to establish requisite minimum contacts); Fellows v.
-Colburn, 162 N.H. 685, 34 A.3d 552, 560-61
-(2011)(same).
+## p. 124
 
-claims against the firm; here, the letter written by IBMC is a communication IBMC was
-required to write in response to Wells Fargo’s actions, e.g., Wells Fargo’s subpoenas
-for information concerning the Unitrusts.
-See Batton, 153 Ariz. at 274, 736 P.2d 2
-(“[T]he requisite minimum contacts are not
-established when the plaintiff’s action ‘requires the defendant to send communications
-into th[e] forum.’ ”).
-
-¶ 27 Wells Fargo also argues that
-IBMC’s act of sending its declaration to
-Hoag’s attorney in support of Hoag’s efforts
-to quash Wells Fargo’s subpoenas seeking to
-garnish the Unitrust income was sufficient to
-establish the necessary minimum contacts.
-Wells Fargo seeks to liken IBMC’s declaration to an opinion letter written to advise
-Hoag, and characterizes such an action as
-being directed at the forum state. In support of this argument, Wells Fargo relies on
-Beverage v. Pullman, 232 Ariz. 414, 306 P.3d
-71. In Beverage, an out-of-state law firm
-issued an opinion letter to an Arizona client
-and the court determined it had personal
-jurisdiction over the firm regarding the
-client’s reliance on the letter.
-¶ 28 Beverage is distinguishable from this
-ease on multiple grounds. In Beverage, the
-law firm sent promotional material about the
-firm to the client’s agent in Arizona in order
-to secure the client’s business. Beverage,
-232 Ariz. at 417, ¶ 11, 306 P.3d 71. The firm
-communicated with the client in the course of
-its representation and drafted and issued an
-opinion letter knowing the client would rely
-on the letter. Id. Here, there is no evidence
-that IBMC took any steps to solicit Hoag, or
-any other Arizona residents, as beneficiaries
-of the Unitrusts. Additionally, the letter
-written by IBMC was not an opinion letter,
-was not written for Hoag’s benefit, and was
-not intended to be relied on by Hoag. Furthermore, in Beverage, the contents of the
-opinion letter were at the heart of the client’s
-
-¶ 29 Accordingly, Wells Fargo has not
-shown evidence of sufficient minimum contacts between IBMC and Arizona in order to
-justify subjecting IBMC to personal jurisdiction in Arizona. We recognize the trial court
-may have felt compelled to exercise its jurisdiction due to the nature of the fund transfers.4 However, where there is no personal
-jurisdiction, the court has no power to do so.
-Thus, we accept jurisdiction and grant relief
-by reversing the trial court’s denial of
-IBMC’s motion to dismiss for lack of personal jurisdiction, and remand for further proceedings consistent with this opinion.
-
-4. Because it has not been alleged or briefed by
-the parties, we do not reach the issue of whether
-personal jurisdiction would exist if IBMC had
-intentionally assisted Hoag in fraudulently concealing his assets by removing them from Arizona. We note that, depending on the circum-
-
-stances of a particular case, such conduct may be
-sufficient to create the minimum contacts required for personal jurisdiction. Reilly, 563
-N.E.2d at 145; Johnson v. Witkowski, 30 Mass.
-App.Ct. 697, 573 N.E.2d 513, 523-24 (1991).
-
-CONCLUSION
+[Removed: 73 lines of the preceding opinion printed on this page.]
 
 357 P.3d 159
 
@@ -89,11 +21,11 @@ Court of Appeals of Arizona,
 Division 1.
 Aug. 27, 2015.
 
-125
+## p. 125
 
-126
+## p. 126
 
-127
+## p. 127
 
 Roush, McCracken & Guerrero, LLP, By
 Peter A. Guerrero, Phoenix, Counsel for
@@ -124,7 +56,7 @@ reasons that follow, we conclude Plaintiffs’
 standard of care expert was not statutorily
 qualified; however, Plaintiffs should have
 
-128
+## p. 128
 been given the opportunity to substitute an
 expert. On Dr. Amadei’s cross-appeal, because we hold that an expert’s opinion in a
 medical malpractice case may be focused on
@@ -201,7 +133,7 @@ The court therefore determined Plaintiffs
 bore “the consequences of an erroneous disclosure” and awarded Dr. Amadei his reasonable attorneys’ fees and costs “incurred by
 Kachina was dismissed after reaching a settlement with Plaintiffs.
 
-129
+## p. 129
 the false and misleading disclosure,” totaling
 $3,497.50.
 ¶ 7 Plaintiffs filed a motion to substitute a
@@ -285,7 +217,7 @@ claimed specialty” as the treating physician
 applies “only when the care or treatment at
 issue was within that specialty.” Id. at ¶ 14.
 
-130
+## p. 130
 The term “specialty,” as used in A.R.S. § 122604, includes both specialties and subspecialties. Id. at 386, ¶ 23, 296 P.3d at 49.
 ¶ 12 Given these considerations, a
 court “must initially determine if the care or
@@ -361,7 +293,7 @@ in the specialty of obstetrics-gynecology could
 provide expert testimony regarding the defendant
 physician’s "related field” of emergency medicine).
 
-131
+## p. 131
 he practices “these specialties.” On March
 4, 2013, defense counsel deposed Dr. Lapan
 and elicited testimony that Dr. Lapan’s clinical practice is limited solely to cardiology.
@@ -448,7 +380,7 @@ breach of contract with Kachina, not a tort
 against Plaintiffs. Dr. Amadei further argued that no standard of care expert had
 been disclosed to testify regarding the duties
 
-132
+## p. 132
 of a medical director. Plaintiffs responded
 that Dr. Lapan would testify that a treating
 physician should involve the family to persuade a patient to agree to emergency care if
@@ -525,7 +457,7 @@ nothing inconsistent in his report which
 would contradict the fact had Jean Preston
 been taken to the emergency room when
 
-133
+## p. 133
 she displayed cardiac symptoms, or shortly
 thereafter, she would have survived.
 (Emphasis added.)
@@ -606,7 +538,7 @@ presented evidence that Ms. Preston was
 resistant to medical treatment and repeatedly failed to follow the advice of her physicians, and argued she therefore would have
 refused to be transported to the hospital
 
-134
+## p. 134
 even if her family was made fully aware of
 her condition and had attempted to persuade
 her that hospitalization was necessary.
@@ -685,7 +617,7 @@ advisory committee note to Federal Rule 702:
 “Nothing in this amendment is intended to
 suggest that experience alone—or experience
 
-135
+## p. 135
 in conjunction with other knowledge, skill,
 training or education —may not provide a
 sufficient foundation for expert testimony”).

@@ -5,33 +5,79 @@ description: Answers questions about Arizona civil jury instructions (RAJI) from
 
 # Arizona civil jury instructions (RAJI)
 
-Models often make up RAJI numbers and paraphrase elements wrong. This skill works only from the instruction text itself.
+Models often make up RAJI numbers and paraphrase elements wrong. This skill works only from
+the instruction text in `chapters/`. If no chapter covers the question, say so and stop.
 
 ## Get the text first
 
-1. Use `chapters.md` in this folder to find the chapter that fits the question.
-2. Open that chapter's file in `chapters/<file>`. Its first line after the header lists every
-   instruction in the chapter; read the one you need. When you need only one instruction, search the file for its label (for example `DEFAMATION 1`).
-3. A number stuck to the end of a word or label (`Proof1`, `9A1`) is a footnote marker, not part of the label. Cite `9A1` as Instruction 9A.
-4. If no chapter covers the question, say so and stop. Don't write elements from memory.
+1. Pick the chapter from the table below and open its file.
+2. Line 9 of each file is its **Contents** line, listing the instructions by label. Search the
+   file for the label you need (for example `DEFAMATION 1A`) and read that instruction, its
+   Use Note, and its Source.
+3. A number stuck to the end of a word or label (`Proof1`, `9A1`) is a footnote marker, not
+   part of the label. Cite `9A1` as Instruction 9A.
+4. If the instruction points to another instruction, read that one too.
+
+| Chapter | Topic | Edition | File |
+|---|---|---|---|
+| 1 | Preliminary | 2020 | `chapters/1-preliminary-2020.md` |
+| 2 | Standard | 2024 | `chapters/2-standard-2024.md` |
+| 3 | Fault | 2013 | `chapters/3-fault-2013.md` |
+| 4 | Negligence | 2018 | `chapters/4-negligence-instructions-2018.md` |
+| 5 | Medical negligence | 2020 | `chapters/5-med-negligence-2020.md` |
+| 6 | Product liability | 2020 | `chapters/6-product-liability-2020.md` |
+| 7 | Insurance bad faith | 2022 | `chapters/7-bad-faith-instructions_2022.md` |
+| 8 | Premises liability | 2013 | `chapters/8-premises-liability-2013.md` |
+| 9 | Personal injury damages | 2025 | `chapters/9-personal-injury-damages-2025.md` |
+| 10 | Personal injury damages-only trials | 2023 | `chapters/10-personal-injury-damages-only-trials-2023.md` |
+| 11 | Verdict forms | 2013 | `chapters/11-verdict-forms-2013.md` |
+| 12 | Contracts | 2015 | `chapters/12-contracts-2015.md` |
+| 13 | Eminent domain | 2013 | `chapters/13-eminent-domain-2013.md` |
+| 14 | Employment | 2015 | `chapters/14-employment-2015.md` |
+| 15 | Commercial torts | 2017 | `chapters/15-commercial-torts-2017.md` |
+| 16 | Intentional torts | 2015 | `chapters/16-intentional-torts-2015.md` |
+| 17 | Agency | 2013 | `chapters/17-agency-2013.md` |
+| 18 | Defamation | 2015 | `chapters/18-defamation-2015.md` |
+| 19 | Residential eviction actions | 2013 | `chapters/19-residential-eviction-actions-2013.md` |
+| 20 | Invasion of privacy | 2023 | `chapters/20-privacy-instructions-2023.md` |
+| 22 | Adult guardianship | 2025 | `chapters/22-adult-guardianship-instructions-2025.md` |
+| 22 | Nuisance damages | 2017 | `chapters/22-nuisance-damages-2017.md` |
+| 22a | Adult Protective Services Act | 2025 | `chapters/22a-apsa-raji-instructions-2025-06-04.md` |
+
+Chapter numbers follow the State Bar's file names, so two chapters share 22. The text was
+extracted from the State Bar of Arizona's chapter PDFs on May 7, 2026 and checked word by
+word against them on October 15, 2026 (each file's header has the details). Chapters 11
+and 22 (adult guardianship) have no numbered labels; search their text.
 
 ## Answer from the text
 
 - Start with the answer in one sentence.
-- Quote the operative language word for word. Anything in quotation marks must appear in the file exactly as written; mark any words you cut with an ellipsis. Cite it the way the chapter labels it (for example, "RAJI (Civil) Defamation 1").
-- For elements, give a numbered list in the instruction's own words, and say who has the burden and what standard applies.
-- Give the Use Note and Source points that change how the instruction is used, such as when to give it, what to modify, and which case it is based on.
-- If the instruction points to another instruction, read that one too before answering.
-- Say what the RAJI does not cover. If the question goes beyond it (case law after the chapter's date, a claim with no RAJI), say that, and don't improvise an instruction.
-- Note the chapter's edition year. A RAJI is a pattern instruction, not a statute, and courts can depart from it.
+- Quote the operative language word for word, marking any words you cut with an ellipsis.
+  Cite by the chapter's label, outside quotation marks: RAJI (Civil) Defamation 1A.
+- For elements, give a numbered list in the instruction's own words, and say who has the
+  burden and what standard applies.
+- Give the Use Note and Source points that change how the instruction is used: when to
+  give it, what to modify, which case it rests on.
+- When the choice between instructions turns on a fact or a ruling (actual malice or
+  negligence, 1A or 1B), give both, say what decides it, and say which one you would
+  expect on the facts the user gave.
+- Say what the RAJI does not cover: case law after the chapter's edition, a claim with no
+  RAJI. Don't improvise an instruction.
+- Give the chapter's edition year. A RAJI is a pattern instruction, not a statute, and
+  courts can depart from it; check the State Bar's RAJI page for a newer edition.
 
 ## Useful extras, when asked
 
-- An element chart: one row per element, with columns for "our evidence" and "gap."
+- An element chart: one row per element, with columns for "our evidence" and "gap". Head
+  it "Attorney work product".
 - A proposed modified instruction, with every change from the pattern shown in brackets.
 
 ## Check before replying
 
-Save your answer as a file and run `python3 scripts/check_quotes.py <answer.md>` (Python 3
-standard library only; nothing to install). Fix every QUOTE NOT FOUND and rerun until it
-reports 0 problems. Then reply.
+Save your answer as a file and run `python3 scripts/check_quotes.py <answer.md>`, with
+`scripts/` in this skill's folder (Python 3 standard library only; nothing to install). It
+checks every quotation, block quotes included, against the chapters, and every
+"RAJI (Civil) <label>" cite against the Contents lines. On QUOTE NOT FOUND, go back to the
+chapter file and re-read the instruction; fix the words, never just the quotation marks.
+On UNKNOWN LABEL, find the right label in the Contents line. Rerun until it reports
+0 problems, then reply.

@@ -1,8 +1,10 @@
 # Bryan v. Riddel, 178 Ariz. 472 (1994)
 
+**Contents:** p. 472 · p. 473 · p. 474 · p. 475 · p. 476 · p. 477. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-472
+## p. 472
 875 P.2d 131
 
 was quite elderly, which can indicate vulnerability. However, both the State Bar and
@@ -72,7 +74,7 @@ injured client to complain. In light of Standard
 9.4, the Commission does not find this to be a
 factor in mitigation.
 
-473
+## p. 473
 
 Law Offices of Charles A Shaw by Charles
 A Shaw, Prescott, for petitioners.
@@ -101,7 +103,7 @@ months, the defense did essentially no discovery. On or about April 17, plaintif
 their list of witnesses and exhibits pursuant
 to Rule V(a), Super.Ct.Unif.R.Practice. De-
 
-474
+## p. 474
 fendants did likewise on May 11. Plaintiffs
 filed a motion to set and certificate of readiness on May 13, and two weeks later, the
 court assigned a trial date of September 8,
@@ -185,7 +187,7 @@ counsel had apparently permitted the defense to
 depose a number of non-expert witnesses without
 objection.
 
-475
+## p. 475
 tive Dates,” supra. It listed and described
 the anticipated testimony of approximately
 18 present and former employees of ADOT,
@@ -269,7 +271,7 @@ which [the witness] has knowledge.”4 Disclosures such as these do not comply w
 other hand, was a bit better. Although the statement again referred to a prior interrogatory answer, that answer did set forth the subject matter
 of each expert's anticipated testimony.
 
-476
+## p. 476
 rules.5 Thus, the trial court legitimately
 looked to Rule 26.1(c), Ariz.R.Civ.P., for
 guidance. That rule provides:
@@ -362,7 +364,7 @@ permit the opponent a reasonable opportunity to
 prepare for trial or settlement—nothing more,
 nothing less.
 
-477
+## p. 477
 received a report from one other. Four of
 the five excluded lay witnesses had also been
 deposed, including plaintiff Leslie Bryan,

@@ -1,37 +1,12 @@
 # Marquez v. Ortega, 231 Ariz. 437 (2013)
 
+**Contents:** p. 437 · p. 438 · p. 439 · p. 440 · p. 441 · p. 442 · p. 443 · p. 444. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-437
-pute and the case can be resolved as a purely
-legal issue. As noted above, see infra ¶ 11,
-however, Prutch alleged “misrepresentation
-and fraud” regarding the representation of
-the primary election as a special election.
-Such issues may present factual questions
-that the trial court has not yet resolved. We
-thus decline to address the merits of Prutch’s
-complaint.3
-6. Attorneys’ Fees and Costs
-¶ 22 Pruteh requests attorneys’
-fees and costs incurred at trial and on appeal
-pursuant to AR.S. § 12-2030(A) and Arizona
-Rule of Civil Appellate Procedure 21 because
-this is a mandamus action. To qualify for
-fees under § 12-2030, “a party must show
-that it: (1) prevailed on the merits (2) in a
-civil action (3) filed against ... a political
-subdivision to perform a duty imposed by
-law.” Hess v. Purcell, 229 Ariz. 250, 253, ¶ 7,
-274 P.3d 520, 523 (App.2012) (internal quotation marks omitted). Because the court dismissed this case before addressing the merits, Pruteh is not entitled to attorneys’ fees
-and costs in the trial court at this time, and
-we deny the request without prejudice.
-However, as the prevailing party on appeal,
-Pruteh is entitled to his costs upon compliance with Rule 21.
+## p. 437
 
-CONCURRING: MAURICE PORTLEY,
-Presiding Judge, and PATRICIA A.
-OROZCO, Judge.
+[Removed: 30 lines of the preceding opinion printed on this page.]
 
 296 P.3d 100
 
@@ -82,9 +57,9 @@ qualified for the office, leaving the Town with a
 functioning government.
 * Justice Ann A. Scott Timmer voted to grant review.
 
-438
+## p. 438
 
-439
+## p. 439
 
 Zachar Law Firm, P.C. By Christoper J.
 Zachar, Phoenix, Attorney for Plaintiffs/Appellants.
@@ -123,7 +98,7 @@ Freeman M. Butland, a licensed California
 attorney, subsequently associated with Zier
 as Pro Hac Vice counsel.
 
-440
+## p. 440
 ¶ 3 In April 2009, court administration generated a 150-day order informing the parties
 that Arizona Rule of Civil Procedure (Rule)
 38.1 “will be strictly enforced” and directing
@@ -210,7 +185,7 @@ withdraw as counsel based on "irreconcilable
 differences” with Butland, which the court
 granted.
 
-441
+## p. 441
 rejected Marquez’s argument that no prejudice had occurred because a trial date had
 not been set:
 Because most civil divisions of the Maricopa County Superior Court (including
@@ -294,7 +269,7 @@ cause shown.” See also Rule 16(f) (“If a party
 or attorney fails to obey a scheduling or
 pretrial order, ... the judge, upon motion or
 
-442
+## p. 442
 the judge’s own initiative, shall, except upon
 a showing of good cause, make such orders
 with regard to such conduct as are just,
@@ -384,7 +359,7 @@ impose, the court shall exclude at trial any evidence offered by a party that wa
 disclosed as required by [Rule 26.1], except by
 leave of court for good cause shown....”
 
-443
+## p. 443
 harmless would constitute grounds for
 granting relief from the sanction of exclusion.[5]
 ¶ 22 We do not interpret either Allstate or Rule 37(c)(1) as preventing a trial
@@ -468,7 +443,7 @@ claimed unfamiliarity with Arizona rules and
 laws. The circumstance that disclosure and discovery rules in Arizona vary from those in California is no excuse for Butland's noncompliance
 with the court-ordered deadlines.
 
-444
+## p. 444
 as co-counsel in 2011, we discern little effort
 by Marquez’s attorneys to diligently prosecute her case. Good cause for untimely disclosure is not established when “it is solely
 the result of a failure to engage in timely

@@ -6,7 +6,7 @@ validated: true
 validated-date: 2026-10-15
 validated-method: word-by-word diff against the State Bar PDF (scripts/raji_verify.py); remaining differences are page headers, page numbers, footnote-number spacing, and two-column form layout
 ---
-**Contents:** Personal Injury Damages 10 (Measure of Damages) · Personal Injury Damages 2 (Pre-Existing Condition,) · Personal Injury Damages 3 (Damages for Wrongful Death of Spouse,) · Personal Injury Damages 4 (Punitive Damages) · Personal Injury Damages 5 (Mortality Tables and Life Expectancy)
+**Contents:** Personal Injury Damages 1 (Measure of Damages; the heading below reads 10, but chapter 10 cites this instruction as Personal Injury Damages 1) · Personal Injury Damages 2 (Pre-Existing Condition,) · Personal Injury Damages 3 (Damages for Wrongful Death of Spouse,) · Personal Injury Damages 4 (Punitive Damages) · Personal Injury Damages 5 (Mortality Tables and Life Expectancy)
 
 PERSONAL INJURY DAMAGES INSTRUCTIONS
 Introduction

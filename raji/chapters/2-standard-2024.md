@@ -6,7 +6,7 @@ validated: true
 validated-date: 2026-10-15
 validated-method: word-by-word diff against the State Bar PDF (scripts/raji_verify.py); remaining differences are page headers, page numbers, footnote-number spacing, and two-column form layout
 ---
-**Contents:** Standard 1 (Impeachment with Felony Conviction) · Standard 2 (Burden of Proof) · Standard 3 (Burden of Proof) · Standard 4 (Corporate Party) · Standard 6 (Impasse in Jury Deliberations) · Standard 7 (Excused Alternate Jurors) · Standard 8 (Closing Instruction) · Standard 9 (Insurance) · Standard 10 (Spoliation –) · Standard 11 (Adverse Inference –)
+**Contents:** Standard 1 (Impeachment with Felony Conviction) · Standard 2 (Burden of Proof) · Standard 3 (Burden of Proof) · Standard 4 (Corporate Party) · Standard 5a (Respondeat Superior Liability, Not Disputed) · Standard 5b (Respondeat Superior Liability, Jury Issue) · Standard 6 (Impasse in Jury Deliberations) · Standard 7 (Excused Alternate Jurors) · Standard 8 (Closing Instruction) · Standard 9 (Insurance) · Standard 10 (Spoliation –) · Standard 11 (Adverse Inference –)
 
 STANDARD INSTRUCTIONS
 Introduction

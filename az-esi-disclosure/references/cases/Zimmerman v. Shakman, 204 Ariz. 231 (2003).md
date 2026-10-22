@@ -1,8 +1,10 @@
 # Zimmerman v. Shakman, 204 Ariz. 231 (2003)
 
+**Contents:** p. 231 · p. 232 · p. 233 · p. 234 · p. 235 · p. 236 · p. 237. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-231
+## p. 231
 whether the documents in question were proemployees of a corporation. Samaritan
 Foundation, 176 Ariz. at 505-06, 862 P.2d at tected by the attorney-client privilege. For
 878-79. The Legislature may create or ex- the above reasons, we deny relief.
@@ -65,16 +67,16 @@ Foundation decision so we do not read into them
 any legislative intent concerning the scope of the
 attorney-client privilege.
 
-232
+## p. 232
 
-233
+## p. 233
 
 Renaud, Cook & Drury, P.A. By Michael
 Salcido, Phoenix, Attorneys for Appellant.
 Kessler Law Offices By Eric W. Kessler,
 Mesa, Attorney for Appellee.
 
-234
+## p. 234
 OPINION
 
 IRVINE, Judge.
@@ -159,7 +161,7 @@ trial court judge had granted the motion in
 limine, denied the motion for reconsideration,
 and vacated the trial date, the new judge
 
-235
+## p. 235
 stated that while he might “have imposed a
 different sanction after holding a hearing ...
 it [was] not [the trial] [c]ourt’s function to
@@ -241,7 +243,7 @@ such as this, where the trial date has not
 yet been set, clearly may be less prejudicial than that resulting from an attempt
 to disclose new witnesses just before trial.
 
-236
+## p. 236
 See, e.g., Jones v. Buchanan, 177 Ariz.
 410, 413, 868 P.2d 993, 996 (Ct.App.1993).
 Each situation must necessarily be evaluated on its own facts.
@@ -326,7 +328,7 @@ answer so that a default will be entered);
 Perguson v. Tamis, 188 Ariz. 425, 429, 937
 P.2d 347, 351 (App.1996) (excluding key evidence).
 
-237
+## p. 237
 ¶20 This leads us to the order granting
 the motion in limine. The trial court’s grant
 of the motion in limine was a sanction for

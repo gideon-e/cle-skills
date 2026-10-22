@@ -1,71 +1,12 @@
 # Jones v. Buchanan, 177 Ariz. 410 (1993)
 
+**Contents:** p. 410 · p. 411 · p. 412 · p. 413 · p. 414. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-410
-In this case, the proffered evidence—Dr.
-Summit’s article—falls squarely within the
-“learned treatise” exception to the hearsay
-rule. Rule 803(18), Arizona Rules of Evidence; Reeves v. Markle, 119 Ariz. 159, 162,
-579 P.2d 1382, 1385 (1978). Consequently,
-defendant’s rights of confrontation were not
-violated by Dr. Boychuk’s discussion of the
-standards set forth in Dr. Summit’s article on
-child abuse accommodation syndrome.4
-Duplicitous Indictment
-Défendant next argues that the trial court
-erred in denying his motion to dismiss counts
-II through VI of the indictment.5
-An indictment is duplicitous if it
-charges separate crimes in the same count.
-State v. Whitney, 159 Ariz. 476, 480, 768 P.2d
-638, 642 (1989). Duplicitous indictments are
-prohibited because they fail to give adequate
-notice of the charge, present a hazard of a
-non-unanimous jury verdict, and make a precise pleading of double jeopardy impossible
-in the event of a later prosecution. Id.
-However, in order to prevail on an arguably
-duplicitous indictment, defendant must demonstrate that he was actually prejudiced
-thereby. State v. Schroeder, 167 Ariz. 47, 52,
-804 P.2d 776, 781 (App.1990).
-In Spencer v. Coconino County Superior Court, 136 Ariz. 608, 667 P.2d 1323
-(1983), the defendant was charged with one
-count of incest and one count of child molestation, but the facts giving rise to these
-charges involved over 100 separate incidents
-occurring over 13 months. Thus, the supreme court held that the indictment was
-duplicitous. Id. at 610, 667 P.2d at 1325.
-Here, however, the challenged counts
-charged defendant with the commission of
-one specific act against one specific victim
-within a specific time period. The victims
-testified as to the specific occurrence that
-formed the basis for each specific count, and
-the state clearly delineated during closing
-arguments what specific conduct constituted
-4. Without any citation to authority, defendant
-argues in. his reply brief that an expert’s discussion of a "learned treatise” is only admissible
-under Rule 803(18) if that expert was involved in
-the underlying research conducted by the author
-of the treatise. We flatly reject this argument.
-5. Defendant was acquitted of count III.
+## p. 410
 
-the offense charged in each specific count.
-Although the. indictment does allege time
-periods in which the offenses were alleged to
-have occurred ranging up to one year, defendant does not show any actual prejudice
-therefrom.6 Accordingly, we find no error in
-the trial court’s denial of defendant’s motion
-to dismiss.
-CONCLUSION
-We affirm the judgments of convictions
-and the sentences imposed. However, the
-sentencing minute entry erroneously orders
-imposition of two $8 time payment fees.
-Pursuant to A.R.S. § 13-4037, we modify the
-sentencing minute entry to reflect imposition
-under A.R.S. § 12-116 of one $8 time payment fee. See State v. Rivera, 172 Ariz. 247,
-250, 836 P.2d 460, 463 (App.1992).
-GERBER, P.J., and TOCI, J., concur.
+[Removed: 64 lines of the preceding opinion printed on this page.]
 
 868 P.2d 993
 
@@ -90,7 +31,7 @@ reconstruct his life for a specific year, is a theoretical, not an actual, preju
 asserted any time an offense was alleged to have
 occurred over a period of time.
 
-411
+## p. 411
 The complaint in this case was filed in
 June of 1992, shortly before the effective
 date of the amendments to the rules. Although the record is not entirely clear, it
@@ -153,7 +94,7 @@ strep infection and subsequent surgeries.”
 disputed Jones’s allegation that it was filed on
 April 28, 1993.
 
-412
+## p. 412
 The next day, Lopez filed a motion to
 continue or stay the May 13 trial and a
 motion to expand disclosure. The grounds
@@ -242,7 +183,7 @@ court for good cause shown, and no party
 shall be permitted to examine that party’s
 witness to prove facts other than those
 
-413
+## p. 413
 identified in the written disclosure to the
 party’s opponents except by leave of court
 for good cause shown. (Emphasis added.)
@@ -328,7 +269,7 @@ some argue that judges have always had
 the power to sanction lawyers and parties
 who would not abide by the rules, experience shows that this power has rarely been
 
-414
+## p. 414
 invoked. Perhaps this is because there
 was no clear mandate in the rules and case
 law, or among members of the profession,
