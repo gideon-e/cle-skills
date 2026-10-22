@@ -102,8 +102,8 @@ review before sending".
 3. On a quote problem, go back to the source and fix the words or the cite, or drop the
    quotation. On BANNED, rewrite the sentence. If a draft is too long, cut it; don't
    summarize it. Return to step 2 until both report 0 problems, then reply. When a draft
-   is wrong in a way the check missed, tell the user and propose the check to add to
-   `scripts/check_quotes.py`.
+   is wrong in a way the check missed, tell the user and suggest reporting it as an issue
+   on the gideon-e/cle-skills repository, so the check can be added.
 
 ## Always
 

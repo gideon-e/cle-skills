@@ -6,7 +6,7 @@ validated: true
 validated-date: 2026-10-15
 validated-method: word-by-word diff against the State Bar PDF (scripts/raji_verify.py); remaining differences are page headers, page numbers, footnote-number spacing, and two-column form layout
 ---
-**Contents:** Preliminary 14 (Damages Only Trials) · Personal Injury – Damages Only Trials 1 (Statement of Claim, Causation) · Personal Injury – Damages Only Trials 2 (Burden of Proof) · Personal Injury – Damages Only Trial 31 (Measure of Damages) · Personal Injury – Damages Only Trials 3 (Measure of Damages) · Personal Injury – Damages Only Trials 5 (Closing Instruction)
+**Contents:** Preliminary 14 (Damages Only Trials) · Personal Injury – Damages Only Trials 1 (Statement of Claim, Causation) · Personal Injury – Damages Only Trials 2 (Burden of Proof) · Personal Injury – Damages Only Trials 3 (Measure of Damages) · Personal Injury – Damages Only Trials 4 (Damages for Wrongful Death of Spouse, Parent, or Child) · Personal Injury – Damages Only Trials 5 (Closing Instruction)
 
 INSTRUCTIONS FOR PERSONAL INJURY TRIALS
 WHERE LIABILITY HAS BEEN ADMITTED OR

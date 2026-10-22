@@ -73,23 +73,24 @@ guardianship) have no numbered labels; search their text.
 
 - An element chart: one row per element, with columns for "our evidence" and "gap". Head
   it "Attorney work product".
-- A proposed modified instruction, with every change from the pattern shown in brackets.
+- A proposed modified instruction, under a "Proposed modification of RAJI (Civil) <label>"
+  heading and outside quotation marks, with every change from the pattern in brackets.
 
 ## Check before replying
 
 Save your answer as a file and run `python3 scripts/check_quotes.py <answer.md>`, with
 `scripts/` in this skill's folder (Python 3 standard library only; nothing to install).
 Add `--user-text <file>` with the user's own documents, extracted with code, when you quote
-them. It checks every quotation of 4 or more words, block quotes included, against the
-chapters and against the instruction cited before it; every "RAJI (Civil) <label>" cite
-against the Contents lines; and filler.
+them. Its docstring lists what it checks and what it skips.
 
 - On a quote problem, print the instruction with `--show` and re-read it; fix the words or
   the cite, never just the quotation marks.
-- On UNKNOWN LABEL, take the right label from the Contents line. On BANNED, rewrite the
-  sentence.
-- Rerun until it reports 0 problems. Then reply, and end with one line saying the quotes
-  and labels were checked against the chapter text and the choice of instruction was not.
+- On UNKNOWN LABEL, use one of the labels it lists. On BANNED, rewrite the sentence.
+- Rerun until it reports 0 problems. If a problem stays after `--show` confirms your words
+  and label, keep them and tell the user which line the check disputes.
+- End the reply with the script's count line in plain words (how many quotations were
+  checked, how many were too short to check) and say the choice of instruction was not
+  checked.
 
-When an answer is wrong in a way the check missed, tell the user and propose the check to
-add to `scripts/check_quotes.py`.
+When an answer is wrong in a way the check missed, tell the user and suggest reporting it
+as an issue on the gideon-e/cle-skills repository, so the check can be added.

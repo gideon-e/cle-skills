@@ -17,7 +17,7 @@ and after against a build checklist and a legal skill design framework.
 - Fixed the sample cite (Defamation 1 does not exist; 1A and 1B do), and when the choice between instructions turns on a fact, both are given.
 - `check_quotes.py` now also checks block quotes, accepts quotes with or without footnote digits, checks that a quote is in the instruction cited before it, limits ellipsis splices to parts within 400 characters, checks every RAJI label (any case, and the "Instruction N" form) against the Contents lines, accepts the user's own words with `--user-text`, and prints one instruction with `--show`.
 - Civil only, said so; the answer ends by saying what the script checked and what it didn't.
-- Contents lines: added Standard 5a and 5b; chapter 9's first instruction is listed as Personal Injury Damages 1, the label chapter 10 cites (its heading reads 10).
+- Contents lines: added Standard 5a and 5b, and Damages Only Trials 4 (wrongful death); fixed Damages Only Trials 3, listed as "Trial 31"; chapter 9's first instruction is listed as Personal Injury Damages 1, the label chapter 10 cites (its heading reads 10).
 - Corrected the extraction date (May 7, 2026; checked October 15, 2026).
 
 ### az-esi-disclosure

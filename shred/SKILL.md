@@ -71,7 +71,8 @@ Their best reply
 Before replying, re-read the report: every finding has where, confidence, and fix; every
 cite in the draft is either checked (say how) or marked unverified; a High-confidence
 fatal flaw means Dead. Fix what fails and re-read. When a report fails for a reason this
-list misses, tell the user and propose the line to add.
+list misses, tell the user and suggest reporting it as an issue on the
+gideon-e/cle-skills repository.
 
 ## Rules
 

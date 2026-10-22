@@ -20,16 +20,18 @@ Checks, one line per problem:
                     in the same source; quote parts further apart separately.
                     Footnote digits stuck to a word in the source ("proof1", "[person]:1")
                     may be kept or dropped, and a quote may run across a "## p. N" heading.
-                    Quotations under 4 words are not checked.
+                    Not checked: quotations under 4 words, a quotation that is only a
+                    label, and 'single-quoted' text; the count line reports how many.
   QUOTE NOT IN CITED INSTRUCTION
-                    (raji) the quote is real but not in the instruction cited most recently
-                    before it.
+                    (raji) the quote is real but not in the instruction cited right after it
+                    (within 120 characters) or, failing that, most recently before it.
+  QUOTE NOT CHECKED (raji) the cited instruction's text couldn't be found; check it by hand.
   QUOTE NOT IN CITED CASE
                     (az-esi-disclosure) the quote is real but not from the case whose
                     "<vol> Ariz." cite comes right after it (or just before it).
   DO NOT QUOTE      (az-esi-disclosure) a passage authorities.md marks **Do not quote:**.
   UNKNOWN LABEL     (raji) a "RAJI (Civil) <Topic> <N>" cite naming no instruction in any
-                    chapter's Contents line.
+                    chapter's Contents line; it lists the labels that topic has.
   BANNED            a phrase from BANNED below.
   TOO LONG          over --max-words.
 
@@ -131,6 +133,14 @@ def cited_case(draft, start, end, cases):
     return key if key in cases else None
 
 
+def canon(label):
+    """A label with extraction noise removed: footnote digits stuck to words, punctuation,
+    and a plural before the number ("Trial 3" and "TRIALS 3" match)."""
+    s = re.sub(r"\d+(?=[a-z]{2})", "", norm(label))
+    s = re.sub(r"[^a-z0-9]", "", s)
+    return re.sub(r"s(?=\d+[a-z]?$)", "", s)
+
+
 def labels():
     """Every label in the chapters' Contents lines, and the text of each instruction."""
     known, spans = set(), {}
@@ -140,14 +150,15 @@ def labels():
             if line.startswith("**Contents:**"):
                 for item in line[len("**Contents:**"):].split(" · "):
                     known.add(norm(re.sub(r"\s*\(.*$", "", item)))
+        by_canon = {canon(k): k for k in known}
         heads = []
         for i, line in enumerate(lines):
-            m = HEADING.match(line.strip())
+            m = HEADING.match(re.sub(r"\d+(?=[A-Z]{2})", "", line.strip()))
             if m:
-                label = norm(f"{m.group(1)} {m.group(2)}")
-                if label not in known and label[:-1] in known:  # a footnote digit on the heading
-                    label = label[:-1]
-                if label in known:
+                label = canon(f"{m.group(1)} {m.group(2)}")
+                # a footnote digit stuck to the heading's number
+                label = by_canon.get(label) or by_canon.get(label[:-1])
+                if label:
                     heads.append((i, label))
         for (i, label), nxt in zip(heads, heads[1:] + [(len(lines), None)]):
             spans[label] = spans.get(label, "") + "\n" + "\n".join(lines[i:nxt[0]])
@@ -155,14 +166,23 @@ def labels():
 
 
 def in_order(parts, text, gap=400):
-    i, first = 0, None
-    for p in parts:
-        j = text.find(p, i)
-        if j < 0 or (first is not None and j - i > gap):
-            return False
-        first = j if first is None else first
-        i = j + len(p)
-    return True
+    """All parts in order, each within `gap` characters of the one before; tries every
+    place the first part occurs, not only the first."""
+    if not parts:
+        return True
+    i = text.find(parts[0])
+    while i >= 0:
+        j, ok = i + len(parts[0]), True
+        for p in parts[1:]:
+            k = text.find(p, j)
+            if k < 0 or k - j > gap:
+                ok = False
+                break
+            j = k + len(p)
+        if ok:
+            return True
+        i = text.find(parts[0], i + 1)
+    return False
 
 
 def matches(q, srcs):
@@ -170,6 +190,12 @@ def matches(q, srcs):
     parts = [p for p in parts if p]
     bare = [drop_footnotes(p) for p in parts]
     return any(in_order(parts, raw) or in_order(bare, clean) for raw, clean in srcs)
+
+
+def bare_label(text):
+    """A quotation that is only a citation label, like "RAJI (Civil) Defamation 1A"."""
+    m = LABEL.match(text.strip(" *:.,"))
+    return bool(m) and m.end() >= len(text.strip(" *:.,"))
 
 
 def quotations(draft):
@@ -182,7 +208,7 @@ def quotations(draft):
             body = s[1:].strip()
             if not block:
                 start = pos
-            if not (re.fullmatch(r"\*\*.*\*\*", body) or body.startswith("RAJI")):
+            if not (re.fullmatch(r"\*\*.*\*\*", body) or bare_label(body)):
                 block.append(body)
         elif block:
             found.append((start, " ".join(block)))
@@ -224,9 +250,12 @@ def main():
             cites.append((m.start(), m.end(), label))
         elif topic_known or topic.istitle():
             problems += 1
-            hint = f"; use {topic} {num[:-1]}" if label[:-1] in known else ""
+            same = sorted(k for k in known if k.rsplit(" ", 1)[0] == norm(topic))
+            hint = (f"; use {topic} {num[:-1]}" if label[:-1] in known
+                    else f"; this topic has: {', '.join(k.rsplit(' ', 1)[1] for k in same)}" if same else "")
             print(f"UNKNOWN LABEL: {topic} {num} (no chapter's Contents line has it{hint})")
 
+    unchecked = 0
     banned_quotes = [pair(b) for b in do_not_quote()]
     cases = case_texts()
     rules_md = ROOT / "references" / "rules.md"
@@ -237,7 +266,8 @@ def main():
             problems += 1
             print("DO NOT QUOTE (authorities.md says why): " + q[:90])
             continue
-        if len(q.split()) < 4 or q.lstrip().startswith("RAJI"):
+        if len(q.split()) < 4 or bare_label(q):
+            unchecked += 1
             continue
         if users and matches(q, users):
             continue
@@ -250,10 +280,16 @@ def main():
             problems += 1
             print(f"QUOTE NOT IN CITED CASE ({case.title()}): " + q[:90])
             continue
+        end = pos + len(q) + 2
+        after = [c for c in cites if end <= c[0] <= end + 120]
         before = [c for c in cites if c[1] <= pos]
-        if before and before[-1][2] in spans and not matches(q, [pair(spans[before[-1][2]])]):
+        cited = after[0][2] if after else before[-1][2] if before else None
+        if cited and cited not in spans:
             problems += 1
-            print(f"QUOTE NOT IN CITED INSTRUCTION ({before[-1][2].title()}): " + q[:90])
+            print(f"QUOTE NOT CHECKED: no text found for {cited.title()}; check it with --show by hand")
+        elif cited and not matches(q, [pair(spans[cited])]):
+            problems += 1
+            print(f"QUOTE NOT IN CITED INSTRUCTION ({cited.title()}): " + q[:90])
 
     low = norm(draft)
     for phrase, why in BANNED.items():
@@ -266,7 +302,8 @@ def main():
         problems += 1
         print(f"TOO LONG: {words} words; cap is {a.max_words}. Cut, don't summarize.")
 
-    print(f"{len(quotes)} quotations, {words} words, {problems} problems")
+    print(f"{len(quotes)} quotations ({len(quotes) - unchecked} checked, {unchecked} under 4 words "
+          f"or a bare label, not checked), {words} words, {problems} problems")
     sys.exit(1 if problems else 0)
 
 

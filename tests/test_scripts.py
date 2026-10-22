@@ -94,6 +94,34 @@ class RajiCheck(unittest.TestCase):
         self.assertTrue(out.startswith("DEFAMATION 1A"))
         self.assertNotIn("DEFAMATION 1B", out)
 
+    def test_every_contents_label_has_text(self):
+        spec = __import__("importlib.util").util.spec_from_file_location("cq", RAJI_CHECK)
+        cq = __import__("importlib.util").util.module_from_spec(spec)
+        spec.loader.exec_module(cq)
+        known, spans = cq.labels()
+        missing = {k for k in known if k not in spans and not k.startswith("no numbered")}
+        self.assertEqual(missing, set())
+
+    def test_quote_led_by_a_label_is_still_checked(self):
+        code, out = run(RAJI_CHECK, draft=(
+            "> RAJI (Civil) Defamation 1A: The plaintiff must prove spite by a preponderance of the evidence.\n"))
+        self.assertEqual(code, 1, out)
+
+    def test_cite_after_the_quote_is_used(self):
+        code, out = run(RAJI_CHECK, draft=(
+            '"[Name of Defendant] was negligent in failing to determine the truth of the statement" '
+            "(RAJI (Civil) Defamation 1A)."))
+        self.assertIn("QUOTE NOT IN CITED INSTRUCTION", out)
+
+    def test_ellipsis_retries_later_matches(self):
+        code, out = run(RAJI_CHECK, draft=(
+            'RAJI (Civil) Defamation 1A: "you must find ... clear and convincing evidence"'))
+        self.assertEqual(code, 0, out)
+
+    def test_unknown_label_lists_the_topic_labels(self):
+        code, out = run(RAJI_CHECK, draft="See RAJI (Civil) Defamation 42.")
+        self.assertRegex(out, r"this topic has: .*\b1a\b.*\b1b\b")
+
     def test_good_law_banned(self):
         code, out = run(RAJI_CHECK, draft="That case is still good law.")
         self.assertIn("BANNED", out)
