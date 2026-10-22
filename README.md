@@ -15,7 +15,7 @@
 
 ## Good to know
 
-- **Rules and cases are dated.** The rule text is current through September 1, 2026. The case notes are current as of October 8, 2026 for most cases and October 15, 2026 for the preservation and expert-disclosure cases; `authorities.md` dates each group. KeyCite or Shepardize every case before you rely on it.
+- **Rules and cases are dated.** The rule text is current through September 1, 2026. The case notes are current as of October 8, 2026 for most cases and October 15, 2026 for the rest; `authorities.md` dates each group. KeyCite or Shepardize every case before you rely on it.
 - **raji includes the RAJI (Civil) chapters**, extracted from the State Bar of Arizona's chapter PDFs on May 7, 2026 and checked word by word against them on October 15, 2026. Each answer gives the chapter's edition year, so check the State Bar's RAJI page for anything newer.
 - **You are the lawyer.** These skills mark gaps and unverified points rather than filling them in. Read every draft before it goes out.
 - **Client material.** What you upload goes to Claude under your plan's terms. The skills label their output as work product or privileged, but a label doesn't make it so; follow your own confidentiality rules about what you upload.

@@ -49,12 +49,11 @@ Rate each line **complete**, **thin** (say what's missing), or **absent**, citin
 5. **Preserved (37(g); 45.2).** Any sign of lost ESI or a late or narrow hold.
 
 **Dates.** Compute every deadline with `python3 scripts/deadlines.py` (run it with no
-arguments for usage); never count by hand. It counts forward (`period`) and backward
-(`before`) under Rule 6(a), backs a weekend set date up a day (`date`), and skips any
-holidays passed with `--holidays`; it knows no holidays of its own, so ask the user for the
-court's or tell them to check. If the user states a deadline and the script disagrees,
-show both computations and mark it as their call. Extra days for the method of service
-aren't in `rules.md`; flag them as a question rather than adding them.
+arguments for usage) and paste its line into the memo; never count by hand. It knows no
+holidays, so ask the user for the court's and pass them with `--holidays`. If the user
+states a deadline and the script disagrees, show both computations and mark it as their
+call. Extra days for the method of service aren't in `rules.md`; flag them as a question
+rather than adding them.
 
 ## Output: short and plain
 
@@ -73,8 +72,9 @@ Top three gaps
 2. ...
 3. ...
 
-Deadlines: <date math, one line each>.
+Deadlines: <deadlines.py output, one line each>.
 Your call: <judgment calls left to the lawyer, one line>.
+Law current through: rules September 1, 2026; case notes as dated in authorities.md.
 ```
 
 Then the letter, only if the user asked for it. Keep it to one page and head it "Draft:
@@ -88,21 +88,28 @@ review before sending".
 
 ## Check before replying
 
-1. Extract the text of the user's documents with code into `docs.md`; don't retype it. If
-   a document can't be extracted (a scan, an image), quote nothing from it and say so.
+1. Run `python3 scripts/extract.py docs.md <each document the user gave you>`; don't
+   retype them. Quote nothing from a document it reports FAILED, and say so.
 2. Save the memo and the letter as files and run, with `scripts/` in this skill's folder
    (Python 3 standard library only; nothing to install):
    `python3 scripts/check_quotes.py memo.md --user-text docs.md --max-words 350`
    `python3 scripts/check_quotes.py letter.md --user-text docs.md --max-words 400`
-   It checks every quotation, block quotes included, against `rules.md`, the bundled
-   opinions, the **Quote:** lines of `authorities.md` (never its Holding summaries), and
-   `docs.md`; it also rejects "good law" and filler.
-3. On QUOTE NOT FOUND, go back to the source and fix the words, or drop the quotation. If a
-   draft is too long, cut it; don't summarize it. Return to step 2 until both report
-   0 problems, then reply.
+   It checks every quotation of 4 or more words, block quotes included, against
+   `rules.md`, the bundled opinions, the quoted words on the **Quote:** lines of
+   `authorities.md` (never its summaries), and `docs.md`; checks that a quote sits in the
+   case whose Ariz. cite follows it; and rejects "Do not quote" passages, "good law", and
+   filler.
+3. On a quote problem, go back to the source and fix the words or the cite, or drop the
+   quotation. On BANNED, rewrite the sentence. If a draft is too long, cut it; don't
+   summarize it. Return to step 2 until both report 0 problems, then reply. When a draft
+   is wrong in a way the check missed, tell the user and propose the check to add to
+   `scripts/check_quotes.py`.
 
 ## Always
 
-- When you cite a case, say which rule version it decided. Tell the user to KeyCite or
-  Shepardize before relying on it; `authorities.md` gives the date its notes were current.
+- Quotation marks go only around words that appear exactly in a reference file or in the
+  user's documents, however short the quote.
+- Tell the user to KeyCite or Shepardize every case before relying on it. Where
+  `authorities.md` marks an old-to-new rule mapping [CONFIRM MAPPING], say the mapping is
+  unconfirmed wherever you rely on it.
 - The user is the lawyer. Mark every judgment call as theirs.

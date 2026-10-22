@@ -28,13 +28,15 @@ governs. If you can't tell which law controls, that is a finding.
    deadline, the wrong court, or a claim the facts can't support. A draft that never names
    the claim or rule it relies on has a fatal flaw; say which claims it might be.
 2. **Proof gaps:** factual statements with no cite to evidence, and evidence that won't come in.
-3. **Logic:** leaps, circular reasoning, and two positions that can't both be true.
+3. **Logic:** leaps, and two positions that can't both be true.
 4. **Authority:** cases that don't hold what the draft says, and authority from the wrong
-   jurisdiction. Run `python3 scripts/cites.py <draft> --sources <file> ...` with this
-   skill's folder as the base for `scripts/`, passing every document the user gave you
-   (Python 3 standard library; nothing to install). It lists each cite in the draft and
-   whether a source contains it. Mark each `UNSOURCED` cite **unverified** unless you
-   checked it in a way the user can see. Never invent a case.
+   jurisdiction. Mark every case, statute, or rule subsection you can't check against a
+   source the user gave you as **unverified**. Never invent a case. To inventory them, run
+   `python3 scripts/cites.py <draft> --sources <file> ...` with `scripts/` in this skill's
+   folder, passing every document the user gave you (Python 3 standard library; .txt, .md,
+   or .docx; extract a .pdf to text first). SOURCED means only that a user's document
+   contains the cite, not that it holds what the draft says. It can miss a cite in an odd
+   form; add any you see to the list by hand.
 5. **Writing:** buried points, long sentences, and adjectives standing in for facts.
 6. **Their best reply:** two or three paragraphs in opposing counsel's voice, making their
    strongest arguments.
@@ -67,14 +69,14 @@ Their best reply
 - **Strong:** only small fixes are needed.
 
 Before replying, re-read the report: every finding has where, confidence, and fix; every
-`UNSOURCED` cite is marked unverified; a High-confidence fatal flaw means Dead; nothing
-praises the draft. Fix what fails and re-read. When a report fails for a reason this list
-misses, tell the user and propose the line to add.
+cite in the draft is either checked (say how) or marked unverified; a High-confidence
+fatal flaw means Dead. Fix what fails and re-read. When a report fails for a reason this
+list misses, tell the user and propose the line to add.
 
 ## Rules
 
 - Praise nothing. If a section holds up, skip it.
-- Don't rewrite the draft unless the user asks. Your job is to find what loses, not to fix it.
+- Don't rewrite the draft unless the user asks.
 - If a finding depends on a document you haven't seen, say which document.
 - On a second pass, grade the new draft on its own merits, not on how much it improved. Say
   which earlier findings were fixed and which still stand.
