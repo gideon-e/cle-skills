@@ -1,8 +1,10 @@
 # Wayne Cook Enterprises, Inc. v. Fain Properties Ltd. Partnership, 196 Ariz. 146 (1999)
 
+**Contents:** p. 146 · p. 147 · p. 148 · p. 149. Search for the words you need rather than reading the whole opinion; quote only the opinion's own pages.
+
 Full opinion text, from the official Arizona Reports page scan (Harvard Caselaw Access Project), read through its OCR layer. OCR can garble words: check the page before you quote it.
 
-146
+## p. 146
 993 P.2d 1110
 
 WAYNE COOK ENTERPRISES, INC.,
@@ -26,7 +28,7 @@ Allen & Price, P.L.C., by Robert E.B. Allen, Charles S. Price, Phoenix, for Plai
 Wright & Associates, by Lawrence C.
 Wright, Lee Allen Johnson, Mesa, for Defendants-Appellees.
 
-147
+## p. 147
 OPINION
 TOCI, Judge.
 ¶ 1 Plaintiff Wayne Cook Enterprises, Inc.
@@ -108,7 +110,7 @@ titled "Conditional Assignment of Proceeds,” and
 its stated purpose was "to provide assurances to
 Cook” of Cook’s financier’s "ability to perform.”
 
-148
+## p. 148
 personally culpable before imposing dismissal
 as a sanction for discovery abuse. Fain argues that in adopting Rule 37(d), “the Arizona Supreme Court carved out a narrow
 exception” to existing case law, allowing the
@@ -193,7 +195,7 @@ Sanction
 ery Ward & Co. v. Superior Court, 176 Ariz. Johnson, had violated the discovery rules and
 619, 863 P.2d 911 (App.1993), we concluded that their failure to explain the reasons for
 
-149
+## p. 149
 nondisclosure gave rise to a “very strong
 inference that the failure to disclose was
 deliberate.” The trial court’s stated explanation for the dismissal was insufficient. See

@@ -1,4 +1,4 @@
-# Ariz. R. Civ. P. 6(a), 16, 26, 26.1, 26.2, 37, and 45.2: full text
+# Ariz. R. Civ. P. 6(a), 16, 26, 26.1, 26.2, 34, 37, and 45.2: full text
 
 As published on Westlaw's free Arizona Court Rules site, current through amendments received by September 1, 2026. Check the court's website for later amendments.
 
