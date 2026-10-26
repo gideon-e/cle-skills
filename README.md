@@ -1,6 +1,5 @@
 # Three Claude skills for Arizona litigators
 
-**An informational tool, not legal advice.** These skills help a lawyer research and check work. They don't replace the lawyer's own judgment, the official sources, or a citator.
 
 | Skill | What it does | Try saying |
 |---|---|---|
