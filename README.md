@@ -29,6 +29,18 @@ Then ask in plain English. Claude picks up a skill when the request fits it.
 - **Client material.** What you upload goes to Claude under your plan's terms. The skills label their output as work product or privileged, but a label doesn't make it so; follow your own confidentiality rules about what you upload.
 - **Don't see a skill working?** Check that it's switched on under Customize → Skills, and start a new chat.
 
+## License
+
+The code and the skill instructions are MIT ([LICENSE](LICENSE)). The legal text bundled
+with them is not ours to license:
+
+- **Arizona Rules of Civil Procedure** (`skills/az-esi-disclosure/references/rules.md`)
+  and **court opinions** (`skills/az-esi-disclosure/references/cases/`) are law, which no
+  one can copyright (*Georgia v. Public.Resource.Org, Inc.*, 590 U.S. 255 (2020)). The
+  opinion text is from the Harvard Caselaw Access Project's page scans.
+- **RAJI (Civil)** (`skills/raji/chapters/`) is published by the State Bar of Arizona's
+  Civil Jury Instructions Committee and remains the State Bar's.
+
 ## For maintainers
 
 Only `skills/` reaches users. Everything else is for building and testing them.
