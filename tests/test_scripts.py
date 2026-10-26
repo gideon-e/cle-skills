@@ -2,10 +2,10 @@
 import pathlib, re, subprocess, sys, tempfile, unittest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-RAJI_CHECK = ROOT / "raji/scripts/check_quotes.py"
-ESI_CHECK = ROOT / "az-esi-disclosure/scripts/check_quotes.py"
-DEADLINES = ROOT / "az-esi-disclosure/scripts/deadlines.py"
-CITES = ROOT / "shred/scripts/cites.py"
+RAJI_CHECK = ROOT / "skills/raji/scripts/check_quotes.py"
+ESI_CHECK = ROOT / "skills/az-esi-disclosure/scripts/check_quotes.py"
+DEADLINES = ROOT / "skills/az-esi-disclosure/scripts/deadlines.py"
+CITES = ROOT / "skills/shred/scripts/cites.py"
 # Quotes authorities.md checked against the page image, whose OCR text is garbled.
 OCR_GARBLED = {
     "the willfulness or inadvertence of a party’s (or attorney’s) conduct.",  # "■willfulnessor"
@@ -172,7 +172,7 @@ class EsiCheck(unittest.TestCase):
         self.assertIn("TOO LONG", out)
 
     def test_every_bundled_case_quote_is_in_its_opinion(self):
-        ref = ROOT / "az-esi-disclosure/references"
+        ref = ROOT / "skills/az-esi-disclosure/references"
         spec = __import__("importlib.util").util.spec_from_file_location("cq", ESI_CHECK)
         cq = __import__("importlib.util").util.module_from_spec(spec)
         spec.loader.exec_module(cq)
@@ -285,7 +285,7 @@ class Cites(unittest.TestCase):
 class Extract(unittest.TestCase):
     def test_extracts_text_and_docx_and_flags_empty(self):
         import zipfile
-        script = ROOT / "az-esi-disclosure/scripts/extract.py"
+        script = ROOT / "skills/az-esi-disclosure/scripts/extract.py"
         with tempfile.TemporaryDirectory() as d:
             d = pathlib.Path(d)
             (d / "a.txt").write_text("Defendant will produce all relevant ESI at a later date. " * 3)

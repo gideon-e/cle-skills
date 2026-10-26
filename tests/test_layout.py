@@ -1,8 +1,9 @@
-"""Each skill folder is a valid claude.ai upload and every file SKILL.md names exists."""
-import pathlib, re, unittest
+"""Each skill folder meets the Agent Skills spec, every file SKILL.md names exists, and the
+plugin manifests agree."""
+import json, pathlib, re, unittest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SKILLS = sorted(p.parent for p in ROOT.glob("*/SKILL.md"))
+SKILLS = sorted(p.parent for p in ROOT.glob("skills/*/SKILL.md"))
 
 
 class Layout(unittest.TestCase):
@@ -24,16 +25,23 @@ class Layout(unittest.TestCase):
                 self.assertTrue((s / path.split()[0]).exists(), f"{s.name}: {path}")
 
     def test_every_chapter_is_listed_and_has_contents(self):
-        body = (ROOT / "raji/SKILL.md").read_text()
-        for p in (ROOT / "raji/chapters").glob("*.md"):
+        body = (ROOT / "skills/raji/SKILL.md").read_text()
+        for p in (ROOT / "skills/raji/chapters").glob("*.md"):
             self.assertIn(f"`chapters/{p.name}`", body)
             self.assertTrue(p.read_text().splitlines()[8].startswith("**Contents:**"), p.name)
 
     def test_long_references_open_with_contents(self):
-        for p in ROOT.glob("*/references/**/*.md"):
+        for p in ROOT.glob("skills/*/references/**/*.md"):
             lines = p.read_text().splitlines()
             if len(lines) > 100:
                 self.assertTrue(any(l.startswith("**Contents:**") for l in lines[:40]), p.name)
+
+    def test_manifests_agree(self):
+        claude = json.loads((ROOT / ".claude-plugin/plugin.json").read_text())
+        codex = json.loads((ROOT / ".codex-plugin/plugin.json").read_text())
+        self.assertEqual(claude["version"], codex["version"])
+        self.assertEqual(claude["name"], codex["name"])
+        self.assertIn(f"## {claude['version']}", (ROOT / "CHANGELOG.md").read_text())
 
 
 if __name__ == "__main__":

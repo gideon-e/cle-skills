@@ -6,12 +6,20 @@
 | **raji** | Answers jury-instruction questions from the RAJI text, which is included. | "What are the elements of defamation under RAJI?" |
 | **shred** | Reads your draft the way opposing counsel will, then grades it. | "Shred this" (attach the draft) |
 
-## Setup (5 minutes, once)
+## Install
 
-1. **Turn on code execution.** On claude.ai: Settings → Capabilities → **Code execution and file creation**. Skills need it. On a Team or Enterprise plan, your admin turns it on.
-2. **Download the three .zip files** from the latest release on this repository's Releases page. Don't unzip them.
-3. **Upload each one.** Customize → Skills → **+** → Create skill → **Upload a skill**. Pick the .zip, then switch the skill on.
-4. **Use it.** Start a new chat and ask in plain English. You don't need a slash command. Claude picks up the skill when your request fits it.
+Each skill is a plain folder under `skills/` that follows the open
+[Agent Skills](https://agentskills.io) format, so any agent that reads skills can use it.
+
+- **Claude Code:** `/plugin marketplace add gideon-e/cle-skills`, then
+  `/plugin install cle-skills@cle-skills`.
+- **Codex:** add this repository as a plugin marketplace; it ships a Codex manifest too.
+- **claude.ai:** turn on Settings → Capabilities → **Code execution and file creation**,
+  download the three .zip files from the latest release, and upload each under
+  Customize → Skills → **+** → **Upload a skill**. Don't unzip them.
+- **Any other agent:** copy a folder from `skills/` into the agent's skills folder.
+
+Then ask in plain English. Claude picks up a skill when the request fits it.
 
 ## Good to know
 
@@ -23,7 +31,10 @@
 
 ## For maintainers
 
-- Test every script: `python3 -m unittest discover tests` (Python 3 standard library only).
-- Build the uploads: `python3 tools/build.py` writes `dist/<skill>.zip`.
-- Release: push a tag such as `v1.1.0`; the release workflow tests, builds, and attaches the zips.
-- Model checks: run the cases in `evals/README.md` and record the run in `CHANGELOG.md`.
+Only `skills/` reaches users. Everything else is for building and testing them.
+
+- Test: `python3 -m unittest discover tests` (Python 3 standard library only).
+- Release: bump the version in both `plugin.json` files, add a `CHANGELOG.md` entry, and
+  push a tag such as `v1.0.0`. The release workflow tests, builds the zips
+  (`tools/build.py`), and attaches them.
+- Model checks: `evals/README.md`.

@@ -1,0 +1,12 @@
+{
+  "name": "cle-skills",
+  "owner": { "name": "Gideon Esakoff" },
+  "metadata": { "description": "Skills for Arizona litigators." },
+  "plugins": [
+    {
+      "name": "cle-skills",
+      "source": "./",
+      "description": "Three skills for Arizona litigators: shred, raji, az-esi-disclosure."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cle-skills",
+  "version": "1.0.0",
+  "description": "Three skills for Arizona litigators: shred (red-team a draft), raji (civil jury instructions), az-esi-disclosure (ESI disclosure check).",
+  "author": { "name": "Gideon Esakoff" },
+  "repository": "https://github.com/gideon-e/cle-skills"
+}

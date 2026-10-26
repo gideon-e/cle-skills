@@ -1,0 +1,12 @@
+{
+  "name": "cle-skills",
+  "interface": { "displayName": "CLE Skills" },
+  "plugins": [
+    {
+      "name": "cle-skills",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    }
+  ]
+}
