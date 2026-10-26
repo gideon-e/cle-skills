@@ -67,7 +67,8 @@ guardianship) have no numbered labels; search their text.
 - Say what the RAJI does not cover: case law after the chapter's edition, and any claim
   with no RAJI, which gets no pattern language at all.
 - Give the chapter's edition year. A RAJI is a pattern instruction, not a statute, and
-  courts can depart from it; check the State Bar's RAJI page for a newer edition.
+  courts can depart from it; check the State Bar's RAJI page for a newer edition:
+  https://www.azbar.org/for-legal-professionals/communities/committees/civil-jury-instructions-committee/
 
 ## Useful extras, when asked
 
