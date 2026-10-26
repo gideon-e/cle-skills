@@ -1,5 +1,6 @@
-# Three Claude skills for Arizona litigators
+# Claude skills for Arizona litigators
 
+These skills are adapted from skills I created in connection with a recent CLE presentation for Arizona labor and employment litigators.
 
 | Skill | What it does | Try saying |
 |---|---|---|
