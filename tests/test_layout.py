@@ -13,7 +13,7 @@ class Layout(unittest.TestCase):
     def test_frontmatter(self):
         for s in SKILLS:
             text = (s / "SKILL.md").read_text()
-            m = re.match(r"---\nname: (.+)\ndescription: (.+)\nlicense: (.+)\n---\n", text)
+            m = re.match(r"---\nname: (.+)\ndescription: (.+)\n---\n", text)
             self.assertIsNotNone(m, s.name)
             self.assertEqual(m.group(1), s.name)
             self.assertLessEqual(len(m.group(2)), 1024, s.name)

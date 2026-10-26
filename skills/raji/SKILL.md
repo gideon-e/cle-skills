@@ -1,7 +1,6 @@
 ---
 name: raji
 description: Answers Arizona civil jury instruction (RAJI) questions from the bundled instruction text. Use for the elements of a claim, the burden of proof, or what a RAJI says.
-license: MIT (https://github.com/gideon-e/cle-skills/blob/main/LICENSE) for the instructions and scripts. The chapters/ text is RAJI (Civil), owned by the State Bar of Arizona and not covered by this license.
 ---
 
 # Arizona civil jury instructions (RAJI)

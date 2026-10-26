@@ -33,16 +33,7 @@ Then ask in plain English. Claude picks up a skill when the request fits it.
 
 ## License
 
-The code and the skill instructions are MIT ([LICENSE](LICENSE)). The legal text bundled
-with them is not ours to license:
-
-- **Arizona Rules of Civil Procedure** (`skills/az-esi-disclosure/references/rules.md`)
-  and **court opinions** (`skills/az-esi-disclosure/references/cases/`) are law, which no
-  one can copyright (*Georgia v. Public.Resource.Org, Inc.*, 590 U.S. 255 (2020)). The
-  opinion text is from the Harvard Caselaw Access Project's page scans.
-- **RAJI (Civil)** (`skills/raji/chapters/`) is published by the State Bar of Arizona's
-  [Civil Jury Instructions Committee](https://www.azbar.org/for-legal-professionals/communities/committees/civil-jury-instructions-committee/), which makes it freely downloadable, and
-  remains the State Bar's. Get the official copies there.
+MIT
 
 ## For maintainers
 

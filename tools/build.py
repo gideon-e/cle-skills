@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Zip each skill for upload to claude.ai: dist/<skill>.zip, with the skill folder at the root
-and the repository LICENSE inside it.
+"""Zip each skill for upload to claude.ai: dist/<skill>.zip, with the skill folder at the root.
 
 Usage: python3 tools/build.py
 Python 3 standard library only. Run the tests first: python3 -m unittest discover tests
@@ -16,5 +15,4 @@ for skill in sorted(p.parent for p in ROOT.glob("skills/*/SKILL.md")):
         for f in sorted(skill.rglob("*")):
             if f.is_file() and "__pycache__" not in f.parts:
                 z.write(f, f.relative_to(skill.parent))
-        z.write(ROOT / "LICENSE", f"{skill.name}/LICENSE")
     print(f"{out.relative_to(ROOT)}  {out.stat().st_size // 1024} KB")
