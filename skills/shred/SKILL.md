@@ -1,6 +1,7 @@
 ---
 name: shred
 description: Red-teams a legal draft as opposing counsel and grades whether it survives. Use when asked to shred a draft, or to re-grade a revised one.
+license: MIT (https://github.com/gideon-e/cle-skills/blob/main/LICENSE)
 ---
 
 # Shred

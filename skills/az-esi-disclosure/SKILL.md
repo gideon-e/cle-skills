@@ -1,6 +1,7 @@
 ---
 name: az-esi-disclosure
 description: Checks an Arizona Rule 26.1 ESI disclosure for gaps, ours or theirs, and drafts the letter to opposing counsel or our client. Use for "is this ESI disclosure complete" or an ESI meet-and-confer.
+license: MIT (https://github.com/gideon-e/cle-skills/blob/main/LICENSE) for the instructions, notes, and scripts. The rule text and court opinions in references/ are public law.
 ---
 
 # Arizona ESI disclosure check
