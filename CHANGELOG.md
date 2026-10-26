@@ -9,7 +9,6 @@
   checks every quote and label before the reply.
 - az-esi-disclosure: deadlines come from `scripts/deadlines.py`; quotes from the rules,
   cases, and the user's documents are checked by `scripts/check_quotes.py`.
-- Evals have not been run on this version.
 
 ## 2026-10-20
 

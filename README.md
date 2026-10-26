@@ -43,4 +43,3 @@ Only `skills/` reaches users. Everything else is for building and testing them.
 - Release: bump the version in both `plugin.json` files, add a `CHANGELOG.md` entry, and
   push a tag such as `v1.0.0`. The release workflow tests, builds the zips
   (`tools/build.py`), and attaches them.
-- Model checks: `evals/README.md`.
