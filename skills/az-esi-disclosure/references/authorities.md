@@ -1,8 +1,8 @@
 # Authorities: ARCP 26.1 counsel duty
 
-**Contents:** Old rules to current rules (map) · Link 1 lawyers' conduct (Bryan, Montgomery Ward, Jones, Allstate) · Link 2 reasonable inquiry (Norwest, Scottsdale Princess, Preston) · Link 3 non-delegable (Rivers, Marquez) · Link 4 client vs. counsel fault (Wayne Cook, Zimmerman, Vizzetti) · Link 6 what a complete disclosure says (Gerow, Englert, Solimeno) · Link 7 ESI preservation and loss (McMurtry, Smyser, Ferneau, Fast, Jones) · Link 5 responding side's toolkit (table) · Not found.
+**Contents:** Old rules to current rules (map) · Link 1 lawyers' conduct (Bryan, Montgomery Ward, Jones, Allstate) · Link 2 reasonable inquiry (Norwest, Scottsdale Princess, Preston) · Link 3 non-delegable (Rivers, Marquez) · Link 4 client vs. counsel fault (Wayne Cook, Zimmerman, Vizzetti) · Link 6 what a complete disclosure says (Gerow, Englert, Solimeno) · Link 7 ESI preservation and loss (McMurtry, Smyser, Ferneau, Fast, Jones) · Link 8 recent reported cases, 2005 on (McDaniel, Estate of Brady, Benedict) · Link 5 responding side's toolkit (table) · Not found.
 
-**Current only as of 10/8/2026 (Links 1-5) and 10/15/2026 (Links 6-7).** The Links 1-5 authorities (12, one of them never pulled) and their KeyCite notes come from a
+**Current only as of 10/8/2026 (Links 1-5), 10/15/2026 (Links 6-7), and 11/9/2026 (Link 8 and the Norwest ¶ 20 quote).** The Links 1-5 authorities (12, one of them never pulled) and their KeyCite notes come from a
 Westlaw research log dated 10/8/2026. The KeyCite status shown is what that log reported
 on that date. It is not a verification. Re-run KeyCite or Shepard's before relying on any
 of them.
@@ -106,6 +106,7 @@ work an injustice (rules.md, Application Provisions of Order No. R-17-0010).
 - **Decided under:** former Rule 26.1(a)(4) and (9) (text quoted at 185, ¶ 13) and former Rule 60(c)(3).
 - **Quote:** Rule 26.1 requires disclosure of all relevant "information known by or available to them and their lawyers. In other words, no more “hide the pea.”" 186, ¶ 17 (quoting Zlaket, 25 Ariz. St. L.J. 1, 5 (1993)).
 - **Quote:** "Good faith is not the issue here; it is whether a disclosure was or was not required to be made." 186, ¶ 18.
+- **Quote:** "the violation is not predicated on an affirmative request for discovery but on the general duty imposed by Rule 26.1 to disclose anything and everything that may be relevant without waiting for a specific discovery request." 186, ¶ 20. The clearest Arizona statement that disclosure does not wait for a request; no reported Arizona case from 2005 on restates it (Westlaw, 11/9/2026; see Link 8).
 - **Quote:** "The attainment of this goal is advanced if counsel are on notice that a failure to comply with the rule can rob their clients of an otherwise valid judgment." 186, ¶ 21.
 - **Holding:** Failing to disclose relevant evidence under the general Rule 26.1 duty, even with no specific discovery request, can be misconduct supporting relief from a judgment under Rule 60(c)(3). That held even though the court presumed the failure was inadvertent and not in bad faith. 186, ¶¶ 21-22.
 - **Also supports:** Link 3 (the client pays).
@@ -264,6 +265,43 @@ shown in Westlaw's star paging. The full opinions are not in `cases/`.
 - **Use for:** proving intent to deprive from circumstances, under 37(g)(2)(B).
 - **Reported KeyCite (10/15/2026):** good.
 
+## Link 8: recent reported cases (2005 on)
+
+Westlaw search on 11/9/2026 (terms-and-connectors and Parallel Search, Arizona, after 2004)
+found no reported Arizona case that restates the no-request duty in Norwest ¶ 20. For the
+rule, cite Norwest ¶ 20, Bryan at 477, and the 2018 Comments to Rules 26.2 and 37
+(rules.md). These cases show the courts still enforce it. **Quotes in this Link come from
+Westlaw Precision text, not the Arizona Reports scan; check the reporter page before
+quoting.** KeyCite: Negative Treatment (0) on each as of 11/9/2026; citing history not read.
+
+### McDaniel v. Payson Healthcare Mgmt., Inc., 253 Ariz. 250, 512 P.3d 998 (2022)
+- **Status:** controlling (Arizona Supreme Court).
+- **Decided under:** current Rule 37(c)(1).
+- **Quote:** "Under Arizona Rule of Civil Procedure 37(c)(1), a party “may not use ... at trial” information that was not timely disclosed." 259, ¶ 37.
+- **Holding:** Undisclosed changes in two experts' opinions were improperly admitted, and the court of appeals' finding of that error supported a new trial. 259, ¶¶ 37-38.
+- **Use for:** the most recent Supreme Court statement of the consequence of nondisclosure. It is not a case about the scope of the duty.
+
+### Estate of Brady v. Tempe Life Care Village, Inc., 254 Ariz. 122, 519 P.3d 707 (App. 2022)
+- **Status:** controlling (Ariz. Ct. App. Div. 1).
+- **Decided under:** current Rules 26.1(a)(3), (a)(7) and 37(c)(1).
+- **Quote:** "Rule 37 requires a court to make a specific finding of “good cause” or “no prejudice” to excuse untimely disclosures." 126, ¶ 17.
+- **Quote:** "NRK have not shown how such a generic disclosure for a contingent claim that they might, or might not, “elect[ ] to pursue” in the future constituted proper disclosure." 127, ¶ 24.
+- **Holding:** Wrongful-death beneficiaries who made no timely damages disclosure were properly precluded; a generic placeholder disclosure was not proper Rule 26.1(a) disclosure, and Rule 26.1 has no wrongful-death exception. 126-27, ¶¶ 16-17, 23-26.
+- **Use for:** generic or placeholder disclosure (pair with Solimeno, Link 6); exclusion factors "gain strength as the trial nears" (quoting Zimmerman, 126, ¶ 16).
+
+### Benedict v. Total Transit Inc., 252 Ariz. 151, 499 P.3d 339 (App. 2021)
+- **Status:** controlling (Ariz. Ct. App. Div. 1; review denied Mar. 4, 2022).
+- **Decided under:** current Rule 37(c)(1).
+- **Quote:** "The object of disclosure, as with all discovery, is to permit the opponent a reasonable opportunity to prepare for trial or settlement-nothing more, nothing less." 157, ¶ 15 (quoting Bryan, 178 Ariz. at 476 n.5).
+- **Caveat:** "nothing more" cuts toward the disclosing party. Use it, if at all, for "nothing less", and expect the other side to quote the rest.
+
+**Leads not pulled.** Reyes v. Town of Gilbert, 247 Ariz. 151 (App. 2019): the Civil Rules
+Handbook cites it for "Rule 26.1(b) does not require parties to disclose documents that are
+not relevant to any party's legal claims or defenses", and says initial ESI disclosure need
+only identify ESI. Expect the disclosing side to cite it; read and KeyCite before
+responding. Campion v. City of Tucson, 256 Ariz. 256 (App. 2023): search hit only; recites
+a party's Rule 26.1 argument; not read.
+
 ## Link 5: the responding side's toolkit
 
 For the party facing a sanction. Every point has a counterweight; give both.
@@ -279,6 +317,9 @@ For the party facing a sanction. Every point has a counterweight; give both.
 | Opponent who lies in wait | Allstate, 288 | Rivers, 532 n.2: no hardball tactics found there |
 
 ## Not found (do not claim otherwise)
+
+- No reported Arizona case from 2005 on restates the Norwest ¶ 20 no-request duty
+  (Westlaw, 11/9/2026). Its later citers in that search are memorandum decisions.
 
 - No Arizona case found says counsel must "ensure / verify / make sure" the client's
   disclosure in those words. The duty is built from Links 1-4.

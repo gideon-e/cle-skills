@@ -9,8 +9,9 @@ named. "Link N" is a section of `authorities.md`; "P-N" is an entry in `deficien
 
 | Issue | Rule text (`rules.md`) | Cases (`authorities.md`) | Patterns |
 |---|---|---|---|
+| Disclosing without waiting for a request | 26.1(a), 26.1(f)(1)-(2); 2018 Comments to 26.2 and 37 ("bedrock") | Link 2 (Norwest ¶ 20); Link 1 (Bryan); Link 8 (no reported 2005+ restatement) | P-1 |
 | What must be disclosed at all | 26.1(a)(8)-(9); 26.1(e)(1) purpose | Link 1 (Bryan); Link 6 (Gerow) | P-1, P-2 |
-| How much detail a disclosure needs | 26.1(a)(8)-(9) ("existence, location, custodian, and general description") | Link 6 (Englert, Solimeno) | P-1 to P-4 |
+| How much detail a disclosure needs | 26.1(a)(8)-(9) ("existence, location, custodian, and general description") | Link 6 (Englert, Solimeno); Link 8 (Estate of Brady) | P-1 to P-4 |
 | What the party must go and find | 26.1(e)(2) (reasonable inquiry and investigation) | Link 2 (Norwest, Scottsdale Princess, Preston) | P-5, P-6 |
 | Initial disclosure deadline; the early meeting | 26.1(f)(1) (30 days after the responsive pleading); 16(b)(1) | none | none |
 | Producing the ESI, and when | 26.1(c)(2) (40 days); 6(a) for counting | Link 1 (Allstate) | P-7 |
@@ -22,7 +23,7 @@ named. "Link N" is a section of `authorities.md`; "P-N" is an entry in `deficien
 | Supplementing, and the 30-day rule | 26.1(f)(2) | Link 2 (Preston) | P-13 |
 | Duty to preserve ESI | 37(g)(1); 45.2 (preservation-request disputes) | Link 7 (McMurtry, Ferneau) | P-14, P-15 |
 | Lost ESI: cure measures vs. intent sanctions | 37(g)(2)(A)-(B) | Link 7 (Smyser, Ferneau; Fast and Jones persuasive only) | P-15, P-16, P-18 |
-| Late or missing disclosure: exclusion and fees | 37(c)(1)-(5) | Links 1, 3, 5 (Allstate, Marquez) | P-17 |
+| Late or missing disclosure: exclusion and fees | 37(c)(1)-(5) | Links 1, 3, 5 (Allstate, Marquez); Link 8 (McDaniel, Estate of Brady) | P-17 |
 | Hiding unfavorable information | 37(d) | Link 4 (Wayne Cook, Rivers) | P-17 |
 | Dismissal or default as a sanction | 37(b), 37(c)(3), 37(g)(2)(B) | Link 4 (Wayne Cook, Zimmerman); Link 7 (Ferneau factors) | P-16 |
 | Who pays; cost allocation | 37(a)(5), 37(h) | none found | P-11 |
@@ -49,7 +50,7 @@ named. "Link N" is a section of `authorities.md`; "P-N" is an entry in `deficien
 | Wayne Cook Enters., Inc. v. Fain Props. Ltd. P'ship, 196 Ariz. 146 | `cases/Wayne Cook Enterprises, Inc. v. Fain Properties Ltd. Partnership, 196 Ariz. 146 (1999).md` |
 | Zimmerman v. Shakman, 204 Ariz. 231 | `cases/Zimmerman v. Shakman, 204 Ariz. 231 (2003).md` |
 
-The Link 6-7 cases were checked on Westlaw and are not bundled; quote them only from
+The Link 6-8 cases were checked on Westlaw and are not bundled; quote them only from
 `authorities.md`.
 
 ## Subsections in `rules.md`

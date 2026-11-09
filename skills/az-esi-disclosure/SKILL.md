@@ -19,7 +19,7 @@ the deficiency patterns. Open only what it points to.
 - `references/deficiency-patterns.md`: 19 common ways an ESI disclosure falls short.
 - `references/rules.md`: the full text of Rules 6(a), 16, 26, 26.1, 26.2, 34, 37, and 45.2,
   current through September 1, 2026.
-- `references/authorities.md`: 18 Arizona cases and 2 federal ones (persuasive only), with
+- `references/authorities.md`: 21 Arizona cases and 2 federal ones (persuasive only), with
   checked quotes and pins, and the rule version each case decided.
 - `references/cases/<case>, <vol> Ariz. <page> (<year>).md`: the full text of 11 of those
   opinions, one heading per reporter page.

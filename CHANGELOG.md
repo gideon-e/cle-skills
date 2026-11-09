@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- az-esi-disclosure: adds the Norwest ¶ 20 quote ("without waiting for a specific discovery
+  request"), a Link 8 of recent reported cases (McDaniel 2022, Estate of Brady 2022,
+  Benedict 2021, checked on Westlaw 11/9/2026), an index row for disclosing without a
+  request, and a "not found" entry: no reported Arizona case from 2005 on restates the rule.
+  Fixes an OCR artifact ("waiting -for") in the bundled Norwest text.
+
 ## 1.0.0 (2026-10-26)
 
 - Packaged as one plugin for Claude Code and Codex; the skills moved to `skills/`.

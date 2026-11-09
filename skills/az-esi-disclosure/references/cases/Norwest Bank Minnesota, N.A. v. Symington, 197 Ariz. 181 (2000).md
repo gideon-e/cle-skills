@@ -352,7 +352,7 @@ by contrast, the violation is not predicated on
 an affirmative request for discovery but on
 the general duty imposed by Rule 26.1 to
 disclose anything and everything that may be
-relevant without waiting -for a specific discovery request. The question then becomes
+relevant without waiting for a specific discovery request. The question then becomes
 whether this difference should affect how we
 characterize a Rule 26.1 violation in the context of a Rule 60(c)(3)inquiry.
 ¶ 21 A major goal of Rule 26.1 is to eliminate, or at least significantly reduce, the
